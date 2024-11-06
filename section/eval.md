@@ -113,6 +113,7 @@
 - [traceloop openllmetry](https://github.com/traceloop/openllmetry): Quality monitoring for your LLM applications. [Sep 2023]
 - [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness): Over 60 standard academic benchmarks for LLMs. A framework for few-shot evaluation. [Aug 2020]
 - [Machine Learning Operations (MLOps) For Beginners](https://towardsdatascience.com/machine-learning-operations-mlops-for-beginners-a5686bfe02b2): DVC (Data Version Control), MLflow, Evidently AI (Monitor a model). Insurance Cross Sell Prediction [git](https://github.com/prsdm/mlops-project) [29 Aug 2024]
+- [Langfuse](https://langfuse.com): [Open source](https://github.com/langfuse/langfuse) LLMOps platform that helps teams to collaboratively monitor, evaluate and debug AI applications. [Nov 2024]
 
 ### **Challenges in evaluating AI systems**
 
