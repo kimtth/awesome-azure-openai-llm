@@ -239,6 +239,7 @@
 1. [Maxun](https://github.com/getmaxun/maxun): Open-Source No-Code Web Data Extraction Platform [Oct 2023]
 ![GitHub Repo stars](https://img.shields.io/github/stars/getmaxun/maxun?style=flat-square&label=%20&color=gray&cacheSeconds=36000)
 1. [GPT Crawler](https://github.com/BuilderIO/gpt-crawler): Crawl a site to generate knowledge files to create your own custom GPT from one or multiple URLs [Nov 2023] ![GitHub Repo stars](https://img.shields.io/github/stars/BuilderIO/gpt-crawler?style=flat-square&label=%20&color=gray&cacheSeconds=36000)
+1. [surya](https://github.com/VikParuchuri/surya): OCR, layout analysis, reading order, table recognition in 90+ languages [Jan 2024] ![GitHub Repo stars](https://img.shields.io/github/stars/VikParuchuri/surya?style=flat-square&label=%20&color=gray&cacheSeconds=36000)
 1. [firecrawl](https://github.com/mendableai/firecrawl): Scrap entire websites into LLM-ready markdown or structured data. [Apr 2024]
 ![GitHub Repo stars](https://img.shields.io/github/stars/mendableai/firecrawl?style=flat-square&label=%20&color=gray&cacheSeconds=36000)
 1. [LLM Scraper](https://github.com/mishushakov/llm-scraper): a TypeScript library that allows you to extract structured data from any webpage using LLMs. [Apr 2024] ![GitHub Repo stars](https://img.shields.io/github/stars/mishushakov/llm-scraper?style=flat-square&label=%20&color=gray&cacheSeconds=36000)

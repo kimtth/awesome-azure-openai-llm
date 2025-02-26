@@ -51,6 +51,7 @@
  ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/CodeXGLUE?style=flat-square&label=%20&color=gray&cacheSeconds=36000)
   1. [SWE-bench](https://www.swebench.com/): Software Engineering Benchmark. Real-world software issues sourced from GitHub.
   1. [MBPP](https://github.com/google-research/google-research/tree/master/mbpp): Mostly Basic Python Programming. [Published in 2021]
+  1. [SWE-Lancer](https://openai.com/index/swe-lancer/): OpenAI. full engineering stack, from UI/UX to systems design, and include a range of task types, from $50 bug fixes to $32,000 feature implementations. [18 Feb 2025]
 
   #### Chatbot Assistance
 
