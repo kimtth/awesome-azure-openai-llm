@@ -17,7 +17,7 @@ This repository contains references to Azure OpenAI, Large Language Models (LLM)
   - [Vector DB](section/rag.md/#vector-database-comparison)
 - **Section 2** 🌌: [Azure OpenAI](section/aoai.md/#azure-openai-and-reference-architecture)
   - [Microsoft LLM Framework](section/aoai.md/#microsoft-azure-openai-llm-framework)
-  - [Copilot Products & Azure OpenAI Service](section/aoai.md/#copilot-products)
+  - [Copilot Products & Azure OpenAI Service](section/aoai.md/#copilot-products) | [Research](section/aoai.md/#research)
   - [Azure Reference Architecture](section/aoai.md/#azure-reference-architectures)
 - **Section 3** 🌐: [LLM Applications](section/app.md/#applications-and-frameworks)
   - [LLM Frameworks](section/app.md/#applications-frameworks-and-user-interface-uiux) | [Applications](section/app.md/#llm-application-development): incl. Code editor
