@@ -1,8 +1,8 @@
-# Azure OpenAI + LLM (Large Language Model) <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
+# Azure OpenAI + LLM [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) 
 
-![Static Badge](https://img.shields.io/badge/llm-azure_openai-blue?style=flat-square) ![GitHub Created At](https://img.shields.io/github/created-at/kimtth/awesome-azure-openai-llm?style=flat-square)
+> Curated resources on Azure OpenAI, Large Language Models (LLMs), and applications.
 
-This repository contains references to Azure OpenAI, Large Language Models (LLM), and related services and libraries.
+![Static Badge](https://img.shields.io/badge/llm-azure_openai-blue?style=flat-square)  ![GitHub Created At](https://img.shields.io/github/created-at/kimtth/awesome-azure-openai-llm?style=flat-square)
 
 🔹Brief each item on a few lines as possible. <br/>
 🔹The dates are based on the first commit, article publication, or paper version 1 issuance. <br/>
@@ -110,13 +110,11 @@ This repository contains references to Azure OpenAI, Large Language Models (LLM)
 - 📺: YouTube or video
 - 💡 or 🏆: recommendation
 
-## **Contributor** 👀
-
+#### **Contributor** 👀  
 <a href="https://github.com/kimtth/awesome-azure-openai-llm/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=kimtth/awesome-azure-openai-llm" />
 </a>
 
-ⓒ `https://github.com/kimtth` all rights reserved.
 
 **[`^        back to top        ^`](#contents)**
 
