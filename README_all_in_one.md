@@ -156,7 +156,12 @@ Comprehensive Surveys and Learning Materials
 | 🔢 | Citation count | 💡🏆 | Recommend |
 | 📑 |  Academic paper | 🤗 | Huggingface |
 
-<!-- All rights reserved © `kimtth` -->
+<!-- 
+All rights reserved © `kimtth` 
+-->
+<!-- 
+https://shields.io/badges/git-hub-created-at
+-->
 
 **[`^        back to top        ^`](#azure-openai--llm)**
 
@@ -370,6 +375,7 @@ Comprehensive Surveys and Learning Materials
 ![**github stars**](https://img.shields.io/github/stars/developersdigest/llm-answer-engine?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [MedGraphRAG📑](https://alphaxiv.org/abs/2408.04187): MedGraphRAG outperforms the previous SOTA model, [Medprompt📑](https://alphaxiv.org/abs/2311.16452), by 1.1%. [✨](https://github.com/medicinetoken/medical-graph-rag) [8 Aug 2024]
 ![**github stars**](https://img.shields.io/github/stars/medicinetoken/medical-graph-rag?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [Meilisearch](https://github.com/meilisearch/meilisearch): A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. [Apr 2018] ![**github stars**](https://img.shields.io/github/stars/meilisearch/meilisearch?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [MemFree✨](https://github.com/memfreeme/memfree): Hybrid AI Search Engine + AI Page Generator. [Jun 2024] ![**github stars**](https://img.shields.io/github/stars/memfreeme/memfree?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [PaperQA2✨](https://github.com/Future-House/paper-qa): High accuracy RAG for answering questions from scientific documents with citations [Feb 2023]
 ![**github stars**](https://img.shields.io/github/stars/Future-House/paper-qa?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
@@ -1064,6 +1070,7 @@ Comprehensive Surveys and Learning Materials
 ![**github stars**](https://img.shields.io/github/stars/iyaja/llama-fs?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Meetily✨](https://github.com/Zackriya-Solutions/meeting-minutes): Open source Ai Assistant for taking meeting notes [Dec 2024] ![**github stars**](https://img.shields.io/github/stars/Zackriya-Solutions/meeting-minutes?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [myGPTReader✨](https://github.com/myreader-io/myGPTReader): Quickly read and understand any web content through conversations [Mar 2023] ![**github stars**](https://img.shields.io/github/stars/myreader-io/myGPTReader?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [Netdata✨](https://github.com/netdata/netdata): AI-powered real-time infrastructure monitoring platform [Jun 2013] ![**github stars**](https://img.shields.io/github/stars/netdata/netdata?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Next.js AI Chatbot✨](https://github.com/vercel/ai-chatbot):💡An Open-Source AI Chatbot Template Built With Next.js and the AI SDK by Vercel. [May 2023] ![**github stars**](https://img.shields.io/github/stars/vercel/ai-chatbot?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Nyro✨](https://github.com/trynyro/nyro-app): AI-Powered Desktop Productivity Tool [Aug 2024]
 ![**github stars**](https://img.shields.io/github/stars/trynyro/nyro-app?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
@@ -1090,6 +1097,7 @@ Comprehensive Surveys and Learning Materials
 1. [bolt.new✨](https://github.com/stackblitz/bolt.new): Dev Sanbox with AI from stackblitz [Sep 2024] ![**github stars**](https://img.shields.io/github/stars/stackblitz/bolt.new?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Claude sub-agents collection✨](https://github.com/wshobson/agents): A collection of production-ready subagents for Claude Code. [Jul 2025] ![**github stars**](https://img.shields.io/github/stars/wshobson/agents?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [claude-code✨](https://github.com/anthropics/claude-code): a terminal-based agentic coding tool that understands your codebase and speeds up development by executing tasks, explaining code, and managing git—all via natural language commands. [Feb 2025] ![**github stars**](https://img.shields.io/github/stars/anthropics/claude-code?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [Claude Skills✨](https://github.com/anthropics/skills): Official repository for Skills. Skills teach Claude how to complete specific tasks in a repeatable way. [Sep 2025] [✍️](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) ![**github stars**](https://img.shields.io/github/stars/anthropics/skills?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [claude‑squad✨](https://github.com/smtg-ai/claude-squad): Terminal app to manage multiple AI assistants (Claude Code, Aider, Codex). [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/smtg-ai/claude-squad?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Cline✨](https://github.com/cline/cline): CLI aNd Editor. Autonomous coding agent. VSCode Extension. [Jul 2024] ![**github stars**](https://img.shields.io/github/stars/cline/cline?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [code2prompt✨](https://github.com/mufeedvh/code2prompt/): a command-line tool (CLI) that converts your codebase into a single LLM prompt with a source tree [Mar 2024]
@@ -2175,6 +2183,7 @@ systematic, step-by-step comparative evaluation. [19 Mar 2024]
 - [Prompts for Education✨](https://github.com/microsoft/prompts-for-edu): Microsoft Prompts for Education [Jul 2023]
  ![**github stars**](https://img.shields.io/github/stars/microsoft/prompts-for-edu?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 - [ShumerPrompt](https://shumerprompt.com/): Discover and share powerful prompts for AI models
+- [System Prompts and Models of AI Tools✨](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools): System Prompts, Internal Tools & AI Models collection [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/x1xhlol/system-prompts-and-models-of-ai-tools?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 - [TheBigPromptLibrary✨](https://github.com/0xeb/TheBigPromptLibrary) [Nov 2023]
  ![**github stars**](https://img.shields.io/github/stars/0xeb/TheBigPromptLibrary?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 
@@ -2807,6 +2816,7 @@ generated webpages are considered better than the original reference webpages` [
   1. [DeepSeek-Prover-V2✨](https://github.com/deepseek-ai/DeepSeek-Prover-V2): Mathematical reasoning [30 Apr 2025]
   1. [DeepSeek-v3.1🤗](https://huggingface.co/deepseek-ai/DeepSeek-V3.1): Think/Non‑Think hybrid reasoning. 128K and MoE. Agent abilities.  [19 Aug 2025]
   1. [DeepSeek-V3.2-Exp✨](https://github.com/deepseek-ai/DeepSeek-V3.2-Exp) [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-V3.2-Exp?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+  1. [DeepSeek-OCR✨](https://github.com/deepseek-ai/DeepSeek-OCR) [Oct 2025] ![**github stars**](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-OCR?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
   1. A list of models: [✨](https://github.com/deepseek-ai)
 - EleutherAI
   - Founded in July 2020. United States tech. GPT-Neo, GPT-J, GPT-NeoX, and The Pile dataset.
@@ -3340,7 +3350,8 @@ x = x @ w_fc # [n_seq, n_embd] @ [n_embd, 3*n_embd] -> [n_seq, 3*n_embd]
 - [Ai2 Playground](https://playground.allenai.org/)
 - Airtable list: [Generative AI Index](https://airtable.com/appssJes9NF1i5xCn/shrH4REIgddv8SzUo/tbl5dsXdD1P859QLO) | [AI Startups](https://airtable.com/appSpVXpylJxMZiWS/shr6nfE9FOHp17IjG/tblL3ekHZfkm3p6YT)
 - [AlphaXiv](https://www.alphaxiv.org): an interactive extension of arXiv
-- [AniDoc✨](https://github.com/yihao-meng/AniDoc): Animation Creation Made Easier [✍️](https://yihao-meng.github.io/AniDoc_demo/)
+- [AniDoc✨](https://github.com/yihao-meng/AniDoc): Animation Creation Made Easier [✍️](https://yihao-meng.github.io/AniDoc_demo/) ![**github stars**](https://img.shields.io/github/stars/yihao-meng/AniDoc?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+- [Cherry Studio✨](https://github.com/CherryHQ/cherry-studio): a desktop client that supports multiple LLM providers. ![**github stars**](https://img.shields.io/github/stars/CherryHQ/cherry-studio?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 - Content writing: <http://jasper.ai/chat> / [🗣️](https://twitter.com/slow_developer/status/1671530676045094915)
 - [Duck.ai](https://www.duck.ai/):💡Private, Useful, and Optional AI: DuckDuckGo offers free access to popular AI chatbots at Duck.ai
 - Edge and Chrome Extension & Plugin
@@ -3354,11 +3365,26 @@ x = x @ w_fc # [n_seq, n_embd] @ [n_embd, 3*n_embd] -> [n_seq, 3*n_embd]
 - [FLORA](https://www.florafauna.ai/): an AI platform integrating text, image, and video models into a unified canvas.
 - Future Tools: <https://www.futuretools.io/>
 - [God Tier Prompts](https://www.godtierprompts.com): A community driven leaderboard where the best prompts rise to the top.
+- Open Source Image Creation Tool
+  1. ComfyUI - https://github.com/comfyanonymous/ComfyUI
+  1. Stable Diffusion web UI - https://github.com/AUTOMATIC1111/stable-diffusion-webui
 - [INFP: Audio-Driven Interactive Head Generation in Dyadic Conversations](https://grisoon.github.io/INFP/) [ref📑](https://alphaxiv.org/abs/2412.04037) [5 Dec 2024]
 - [MGX (MetaGPT X)](https://mgx.dev/): Multi-agent collaboration platform to develop an application.
 - [Msty](https://msty.app/):💡The easiest way to use local and online AI models
 - [napkin.ai](https://www.napkin.ai/): a text-to-visual graphics generator [7 Aug 2024]
 - Newsletters & Tool Databas: <https://www.therundown.ai/>
+- Open Source No-Code AI Tools
+  1. Anything-LLM — https://anythingllm.com
+  1. Budibase — https://budibase.com
+  1. Coze Studio — https://www.coze.com
+  1. Dify — https://dify.ai
+  1. Flowise — https://flowiseai.com
+  1. n8n — https://n8n.io
+  1. NocoBase — https://www.nocobase.com
+  1. NocoDB — https://nocodb.com
+  1. Sim — https://www.sim.ai
+  1. Strapi — https://strapi.io
+  1. ToolJet — https://www.tooljet.ai
 - Oceans of AI - All AI Tools <https://play.google.com/store/apps/details?id=in.blueplanetapps.oceansofai&hl=en_US>
 - Open source (huggingface):🤗<http://huggingface.co/chat>
 - [Pika AI - Free AI Video Generator](https://pika.art/login)
