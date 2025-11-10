@@ -7,7 +7,7 @@
 3. Azure OpenAI does not use user input as training data for other customers. [Data, privacy, and security for Azure OpenAI✍️](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy). Azure OpenAI does not share user data, including prompts and responses, with OpenAI.
 
 - [What is Azure OpenAI Service?✍️](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)
-- [Open AI Models](https://platform.openai.com/docs/models)
+- [Azure OpenAI Models](https://ai.azure.com/explore/models) | [Open AI Models](https://platform.openai.com/docs/models)
 - [Abuse Monitoring✍️](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy): To detect and mitigate abuse, Azure OpenAI stores all prompts and generated content securely for up to thirty (30) days. (No prompts or completions are stored if the customer chooses to turn off abuse monitoring.)
 - 🏆[Data Science Toolkit](https://www.ds-toolkit.com/)
 - 🏆`github organizations`: 🌐[Azure](https://github.com/Azure) | 🏬[Azure-samples](https://github.com/Azure-Samples) | 🏛️[Microsoft](https://github.com/Microsoft) | 👥[MSUSAzureAccelerators](https://github.com/MSUSAzureAccelerators)
@@ -49,6 +49,7 @@
 
 #### Agent
 
+1. [Agent Lightning✍️](https://github.com/microsoft/agent-lightning): Train and optimize agents (including RL, prompt‑optimization, multi‑agent workflows) [Jun 2025] ![**github stars**](https://img.shields.io/github/stars/microsoft/agent-lightning?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [AIOpsLab✍️](https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/): Building AI agents for autonomous clouds. AI agents for incident root cause analysis (RCA) [✨](https://github.com/microsoft/AIOpsLab/
 ) [20 Dec 2024] ![**github stars**](https://img.shields.io/github/stars/microsoft/AIOpsLab?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Autogen✨](https://github.com/microsoft/autogen) (Mar 2023): A customizable and conversable agent framework. / [✍️](https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/) / [Autogen Studio✍️](https://www.microsoft.com/en-us/research/blog/introducing-autogen-studio-a-low-code-interface-for-building-multi-agent-workflows/) (June 2024) ![**github stars**](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square&label=%20&color=blue&cacheSeconds=36000)

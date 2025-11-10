@@ -347,6 +347,7 @@ https://shields.io/badges/git-hub-created-at
 1. [MindSearch✨](https://github.com/InternLM/MindSearch): An open-source AI Search Engine Framework [Jul 2024]
 ![**github stars**](https://img.shields.io/github/stars/InternLM/MindSearch?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [MiniRAG✨](https://github.com/HKUDS/MiniRAG): RAG through heterogeneous graph indexing and lightweight topology-enhanced retrieval. [Jan 2025] ![**github stars**](https://img.shields.io/github/stars/HKUDS/MiniRAG?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [Pyversity✨](https://github.com/Pringled/pyversity): A rerank library for search results [Oct 2025] ![**github stars**](https://img.shields.io/github/stars/Pringled/pyversity?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [RAGApp✨](https://github.com/ragapp/ragapp): Agentic RAG. Custom GPTs, but deployable in your own cloud infrastructure using Docker. [Apr 2024]
 ![**github stars**](https://img.shields.io/github/stars/ragapp/ragapp?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [RAG Builder✨](https://github.com/KruxAI/ragbuilder): Automatically create an optimal production-ready Retrieval-Augmented Generation (RAG) setup for your data. [Jun 2024] 
@@ -474,7 +475,7 @@ https://shields.io/badges/git-hub-created-at
 3. Azure OpenAI does not use user input as training data for other customers. [Data, privacy, and security for Azure OpenAI✍️](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy). Azure OpenAI does not share user data, including prompts and responses, with OpenAI.
 
 - [What is Azure OpenAI Service?✍️](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/overview)
-- [Open AI Models](https://platform.openai.com/docs/models)
+- [Azure OpenAI Models](https://ai.azure.com/explore/models) | [Open AI Models](https://platform.openai.com/docs/models)
 - [Abuse Monitoring✍️](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/data-privacy): To detect and mitigate abuse, Azure OpenAI stores all prompts and generated content securely for up to thirty (30) days. (No prompts or completions are stored if the customer chooses to turn off abuse monitoring.)
 - 🏆[Data Science Toolkit](https://www.ds-toolkit.com/)
 - 🏆`github organizations`: 🌐[Azure](https://github.com/Azure) | 🏬[Azure-samples](https://github.com/Azure-Samples) | 🏛️[Microsoft](https://github.com/Microsoft) | 👥[MSUSAzureAccelerators](https://github.com/MSUSAzureAccelerators)
@@ -516,6 +517,7 @@ https://shields.io/badges/git-hub-created-at
 
 #### Agent
 
+1. [Agent Lightning✍️](https://github.com/microsoft/agent-lightning): Train and optimize agents (including RL, prompt‑optimization, multi‑agent workflows) [Jun 2025] ![**github stars**](https://img.shields.io/github/stars/microsoft/agent-lightning?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [AIOpsLab✍️](https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/): Building AI agents for autonomous clouds. AI agents for incident root cause analysis (RCA) [✨](https://github.com/microsoft/AIOpsLab/
 ) [20 Dec 2024] ![**github stars**](https://img.shields.io/github/stars/microsoft/AIOpsLab?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Autogen✨](https://github.com/microsoft/autogen) (Mar 2023): A customizable and conversable agent framework. / [✍️](https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/) / [Autogen Studio✍️](https://www.microsoft.com/en-us/research/blog/introducing-autogen-studio-a-low-code-interface-for-building-multi-agent-workflows/) (June 2024) ![**github stars**](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
@@ -955,6 +957,7 @@ https://shields.io/badges/git-hub-created-at
 ![**github stars**](https://img.shields.io/github/stars/UKPLab/sentence-transformers?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [string2string✨](https://github.com/stanfordnlp/string2string): an open-source tool that offers a comprehensive suite of efficient algorithms for a broad range of string-to-string problems. [Mar 2023]
 ![**github stars**](https://img.shields.io/github/stars/stanfordnlp/string2string?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [Transformer Lab✨](https://github.com/transformerlab/transformerlab-app): Open Source Application for Advanced LLM + Diffusion Engineering: interact, train, fine-tune, and evaluation. [Dec 2023] ![**github stars**](https://img.shields.io/github/stars/transformerlab/transformerlab-app?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [unsloth✨](https://github.com/unslothai/unsloth): Finetune Mistral, Gemma, Llama 2-5x faster with less memory! [Nov 2023]
 ![**github stars**](https://img.shields.io/github/stars/unslothai/unsloth?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Visual Blocks✨](https://github.com/google/visualblocks): Google visual programming framework that lets you create ML pipelines in a no-code graph editor. [Mar 2023]
@@ -1031,6 +1034,7 @@ https://shields.io/badges/git-hub-created-at
 ![**github stars**](https://img.shields.io/github/stars/mem0ai/mem0?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
     | [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory📑](https://alphaxiv.org/abs/2504.19413) [28 Apr 2025]  
 1. [Memary✨](https://github.com/kingjulio8238/Memary): memary mimics how human memory evolves and learns over time. The memory module comprises the Memory Stream and Entity Knowledge Store. [May 2024] ![**github stars**](https://img.shields.io/github/stars/kingjulio8238/Memary?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [OpenMemory✨](https://github.com/CaviraOSS/OpenMemory): Long-term memory for AI systems. Open source, self-hosted, and explainable. [Oct 2025] ![**github stars**](https://img.shields.io/github/stars/CaviraOSS/OpenMemory?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [zep✨](https://github.com/getzep/zep): Long term memory layer. Zep intelligently integrates new information into the user's Knowledge Graph. ![**github stars**](https://img.shields.io/github/stars/getzep/zep?style=flat-square&label=%20&color=blue&cacheSeconds=36000) [May 2023]
 
 #### **LLM Application**
@@ -1049,6 +1053,7 @@ https://shields.io/badges/git-hub-created-at
 1. [Customer Service Chat with AI Assistant Handoff✨](https://github.com/pereiralex/Simple-bot-handoff-sample): Seamlessly hand off to a human agent when needed. [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/pereiralex/Simple-bot-handoff-sample?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [dataline✨](https://github.com/RamiAwar/dataline): Chat with your data - AI data analysis and visualization [Apr 2023]
 ![**github stars**](https://img.shields.io/github/stars/RamiAwar/dataline?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [Deepnote✨](https://github.com/deepnote/deepnote): A successor of Jupyter. a data notebook for the AI. [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/deepnote/deepnote?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Dialoqbase✨](https://github.com/n4ze3m/dialoqbase): Create custom chatbots with your own knowledge base using PostgreSQL [Jun 2023]
 ![**github stars**](https://img.shields.io/github/stars/n4ze3m/dialoqbase?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [DocsGPT✨](https://github.com/arc53/docsgpt): Chatbot for document with your data [Feb 2023]
@@ -1085,10 +1090,12 @@ https://shields.io/badges/git-hub-created-at
 ![**github stars**](https://img.shields.io/github/stars/abi/screenshot-to-code?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [SolidGPT✨](https://github.com/AI-Citizen/SolidGPT): AI searching assistant for developers (VSCode Extension) [Aug 2023]
 ![**github stars**](https://img.shields.io/github/stars/AI-Citizen/SolidGPT?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [Strix✨](https://github.com/usestrix/strix): Open-source AI Hackers to secure your Apps. [Aug 2025] ![**github stars**](https://img.shields.io/github/stars/usestrix/strix?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [SurfSense✨](https://github.com/MODSetter/SurfSense): Open-source alternative to NotebookLM, Perplexity, and Glean — integrates with your personal knowledge base, search engines, Slack, Linear, Notion, YouTube, and GitHub. ![**github stars**](https://img.shields.io/github/stars/MODSetter/SurfSense?style=flat-square&label=%20&color=blue&cacheSeconds=36000) [July 2024]
 1. [TaxyAI/browser-extension✨](https://github.com/TaxyAI/browser-extension): Browser Automation by Chrome debugger API and Prompt > `src/helpers/determineNextAction.ts` [Mar 2023]
 1. [vanna✨](https://github.com/vanna-ai/vanna): Chat with your SQL database. Accurate Text-to-SQL Generation via LLMs using RAG. [May 2023]
 ![**github stars**](https://img.shields.io/github/stars/vanna-ai/vanna?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [ValueCell✨](https://github.com/ValueCell-ai/valuecell): a community-driven, multi-agent platform for financial applications. [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/ValueCell-ai/valuecell?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 
 #### **Code editor / Agent**
 
@@ -1202,6 +1209,7 @@ https://shields.io/badges/git-hub-created-at
 1. [surya✨](https://github.com/VikParuchuri/surya): OCR, layout analysis, reading order, table recognition in 90+ languages [Jan 2024] ![**github stars**](https://img.shields.io/github/stars/VikParuchuri/surya?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Trafilatura✨](https://github.com/adbar/trafilatura): Gather text from the web and convert raw HTML into structured, meaningful data. [Apr 2019]
 ![**github stars**](https://img.shields.io/github/stars/adbar/trafilatura?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [Token-Oriented Object Notation (TOON)✨](https://github.com/toon-format/toon): a compact, human-readable serialization format designed for passing structured data with significantly reduced token usage. [Oct 2025] ![**github stars**](https://img.shields.io/github/stars/toon-format/toon?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [unstructured✨](https://github.com/Unstructured-IO/unstructured): Open-Source Pre-Processing Tools for Unstructured Data [Sep 2022]
 ![**github stars**](https://img.shields.io/github/stars/Unstructured-IO/unstructured?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [WaterCrawl✨](https://github.com/watercrawl/WaterCrawl): Transform Web Content into LLM-Ready Data. [Dec 2024] ![**github stars**](https://img.shields.io/github/stars/watercrawl/WaterCrawl?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
@@ -1385,6 +1393,7 @@ https://shields.io/badges/git-hub-created-at
 1. [ACI.dev ✨](https://github.com/aipotheosis-labs/aci): Unified Model-Context-Protocol (MCP) server (Built-in OAuth flows) [Sep 2024] ![**github stars**](https://img.shields.io/github/stars/aipotheosis-labs/aci?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [AWS MCP Servers✨](https://github.com/awslabs/mcp): MCP servers that bring AWS best practices [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/awslabs/mcp?style=flat-square&label=%20&color=blue&cacheSeconds=36000) 
 1. [Azure MCP Server✨](https://github.com/Azure/azure-mcp): connection between AI agents and key Azure services like Azure Storage, Cosmos DB, and more. [Apr 2025] ![**github stars**](https://img.shields.io/github/stars/Azure/azure-mcp?style=flat-square&label=%20&color=blue&cacheSeconds=36000) 
+1. [Code execution with MCP✍️](https://www.anthropic.com/engineering/code-execution-with-mcp): This approach uses only the input, code, and output summary for tokens, reducing token usage by up to 95% compared to generic MCP calls. [04 Nov 2025]
 1. [Context7✨](https://github.com/upstash/context7): Up-to-date code documentation for LLMs and AI code editors [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/upstash/context7?style=flat-square&label=%20&color=blue&cacheSeconds=36000) 
 1. [DeepMCPAgent✨](https://github.com/cryxnet/DeepMCPAgent): a model-agnostic framework for plug-and-play LangChain/LangGraph agents using MCP tools dynamically over HTTP/SSE. [Aug 2025] ![**github stars**](https://img.shields.io/github/stars/cryxnet/DeepMCPAgent?style=flat-square&label=%20&color=blue&cacheSeconds=36000) 
 1. [fastapi_mcp✨](https://github.com/tadata-org/fastapi_mcp): automatically exposing FastAPI endpoints as Model Context Protocol (MCP) [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/tadata-org/fastapi_mcp?style=flat-square&label=%20&color=blue&cacheSeconds=36000) 
@@ -1470,6 +1479,7 @@ https://shields.io/badges/git-hub-created-at
 1. [OpenAgents✨](https://github.com/xlang-ai/OpenAgents): Three distinct agents: Data Agent for data analysis, Plugins Agent for plugin integration, and Web Agent for autonomous web browsing. [Aug 2023] ![**github stars**](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [OpenAI Agents SDK & Response API✨](https://github.com/openai/openai-agents-python):🏆Responses API (Chat Completions + Assistants API), Built-in tools (web search, file search, computer use), Agents SDK for multi-agent workflows, agent workflow observability tools [11 Mar 2025] ![**github stars**](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [OpenAI Swarm✨](https://github.com/openai/swarm): An experimental and educational framework for lightweight multi-agent orchestration. [11 Oct 2024] ![**github stars**](https://img.shields.io/github/stars/openai/swarm?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [OpenEnv✨](https://github.com/meta-pytorch/OpenEnv): An e2e framework for isolated execution environments for agentic RL training, built using Gymnasium style simple APIs. [Oct 2025] ![**github stars**](https://img.shields.io/github/stars/meta-pytorch/OpenEnv?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [OWL: Optimized Workforce Learning✨](https://github.com/camel-ai/owl): a multi-agent collaboration framework built on CAMEL-AI, enhancing task automation [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/camel-ai/owl?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [parlant✨](https://github.com/emcie-co/parlant): Instead of hoping your LLM will follow instructions, Parlant ensures rule compliance, Predictable, consistent behavior [Feb 2024] ![**github stars**](https://img.shields.io/github/stars/emcie-co/parlant?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [phidata✨](https://github.com/phidatahq/phidata): Build AI Assistants with memory, knowledge, and tools [May 2022] ![**github stars**](https://img.shields.io/github/stars/phidatahq/phidata?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
@@ -1499,9 +1509,11 @@ https://shields.io/badges/git-hub-created-at
 1. [ASearcher✨](https://github.com/inclusionAI/ASearcher): ASearcher: An Open-Source Large-Scale Reinforcement Learning Project for Search Agents [11 Aug 2025] ![**github stars**](https://img.shields.io/github/stars/inclusionAI/ASearcher?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Auto-GPT✨](https://github.com/Torantulino/Auto-GPT): Most popular [Mar 2023] ![**github stars**](https://img.shields.io/github/stars/Torantulino/Auto-GPT?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [babyagi✨](https://github.com/yoheinakajima/babyagi): Simplest implementation - Coworking of 4 agents [Apr 2023] ![**github stars**](https://img.shields.io/github/stars/yoheinakajima/babyagi?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [BettaFish✨](https://github.com/666ghj/BettaFish):  A multi-agent public opinion analysis assistant. [Jul 2024] ![**github stars**](https://img.shields.io/github/stars/666ghj/BettaFish?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [browser-use✨](https://github.com/browser-use/browser-use): Make websites accessible for AI agents. [Nov 2024] ![**github stars**](https://img.shields.io/github/stars/browser-use/browser-use?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [CAMEL✨](https://github.com/lightaime/camel): CAMEL: Communicative Agents for “Mind” Exploration of Large Scale Language Model Society [Mar 2023] ![**github stars**](https://img.shields.io/github/stars/lightaime/camel?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [ChatDev✨](https://github.com/OpenBMB/ChatDev): Virtual software company. Create Customized Software using LLM-powered Multi-Agent Collaboration [Sep 2023] ![**github stars**](https://img.shields.io/github/stars/OpenBMB/ChatDev?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [Contains Studio AI Agents✨](https://github.com/contains-studio/agents): A comprehensive collection of specialized AI agents. [Jul 2025] ![**github stars**](https://img.shields.io/github/stars/contains-studio/agents?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Customer Service Agents Demo](https://github.com/openai/openai-cs-agents-demo): OpenAI. Customer Service Agents Demo. [Jun 2025] ![**github stars**](https://img.shields.io/github/stars/openai/openai-cs-agents-demo?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Devon✨](https://github.com/entropy-research/Devon): An open-source pair programmer. [Mar 2024] ![**github stars**](https://img.shields.io/github/stars/entropy-research/Devon?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [GPT Pilot✨](https://github.com/Pythagora-io/gpt-pilot): The first real AI developer. Dev tool that writes scalable apps from scratch while the developer oversees the implementation [Jul 2023] ![**github stars**](https://img.shields.io/github/stars/Pythagora-io/gpt-pilot?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
@@ -1583,7 +1595,8 @@ https://shields.io/badges/git-hub-created-at
 1. [Deep Research Agent📑](https://alphaxiv.org/abs/2506.18096):💡Survey. A Systematic Examination And Roadmap [22 Jun 2025]
 1. [DeerFlow✨](https://github.com/bytedance/deer-flow):  Bytedance. Deep Exploration and Efficient Research Flow. a community-driven Deep Research framework that combines language models with tools like web search, crawling, and code execution.  ![**github stars**](https://img.shields.io/github/stars/bytedance/deer-flow?style=flat-square&label=%20&color=blue&cacheSeconds=36000) [May 2025]
 1. [DeepSearcher✨](https://github.com/zilliztech/deep-searcher): DeepSearcher integrates LLMs and Vector Databases for precise search, evaluation, and reasoning on private data, providing accurate answers and detailed reports. [Feb 2025] ![**github stars**](https://img.shields.io/github/stars/zilliztech/deep-searcher?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
-1. [Felo.ai Deep Research](https://felo.ai/blog/free-deepseek-r1-ai-search/) [8 Feb 2025]
+1. [Enterprise Deep Research (EDR)✨](https://github.com/SalesforceAIResearch/enterprise-deep-research): Salesforce Enterprise Deep Research [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/SalesforceAIResearch/enterprise-deep-research?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [Felo.ai Deep Research✍️](https://felo.ai/blog/free-deepseek-r1-ai-search/) [8 Feb 2025]
 1. [Kimi-Researcher](https://moonshotai.github.io/Kimi-Researcher/): Kimi Researcher is an AI-powered tool that assists with document analysis, literature review, and knowledge extraction. Moonshot AI (Chinese name: 月之暗面, meaning "The Dark Side of the Moon") is a Beijing-based company founded in March 2023. [20 Jun 2025]
 1. [LangChain Open Deep Research✨](https://github.com/langchain-ai/open_deep_research): (formerly mAIstro) a web research assistant for generating comprehensive reports on any topic. [13 Feb 2025] ![**github stars**](https://img.shields.io/github/stars/langchain-ai/open_deep_research?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Manus sandbox runtime code leaked](https://x.com/jianxliao/status/1898861051183349870): Claude Sonnet with 29 tools, without multi-agent, using `browser_use`. [✨](https://gist.github.com/jlia0/db0a9695b3ca7609c9b1a08dcbf872c9) [✍️](https://manus.im/): Manus official site [10 Mar 2025]
@@ -1785,6 +1798,7 @@ Each semantic function is defined by a unique prompt template file, developed us
 - LangChain is a framework for developing applications powered by language models. (1) Be data-aware: connect a language model to other sources of data.
   (2) Be agentic: Allow a language model to interact with its environment. doc:[✍️](https://docs.langchain.com/docs) / blog:[✍️](https://blog.langchain.dev) / [✨](https://github.com/langchain-ai/langchain)
  ![**github stars**](https://img.shields.io/github/stars/langchain-ai/langchain?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+- [Reflections on Three Years of Building LangChain](https://blog.langchain.com/three-years-langchain/): Langchain 1.0, released  [25 Oct 2025]
 - It highlights two main value props of the framework:
 
   1. Components: modular abstractions and implementations for working with language models, with easy-to-use features.
@@ -2377,6 +2391,7 @@ systematic, step-by-step comparative evaluation. [19 Mar 2024]
 - [SFT vs RL📑](https://alphaxiv.org/abs/2501.17161): SFT Memorizes, RL Generalizes. RL enhances generalization across text and vision, while SFT tends to memorize and overfit. [✨](https://github.com/LeslieTrue/SFTvsRL) [28 Jan 2025]
 - `Supervised Fine-Tuning (SFT)` fine-tuning a pre-trained model on a specific task or domain using labeled data. This can cause more significant shifts in the model’s behavior compared to RLHF. <br/>
   <img src="./files/rlhf-dpo.png" width="400" />  
+- [Supervised Reinforcement Learning (SRL)📑](https://arxiv.org/abs/2510.25992): **The Problem**: SFT imitates human actions token by token, leading to overfitting; RLVR gives rewards only when successful, with no signal when all attempts fail. **This Approach**: Each action during RL generates a short reasoning trace and receives a similarity reward at every step. [29 Oct 2025]
 - [Train your own R1 reasoning model with Unsloth (GRPO)](https://unsloth.ai/blog/r1-reasoning): Unsloth x vLLM > 20x more throughput, 50% VRAM savings. [6 Feb 2025]
 
 #### **Model Compression for Large Language Models**
@@ -2519,6 +2534,7 @@ systematic, step-by-step comparative evaluation. [19 Mar 2024]
 #### **OpenAI Products**
 
 - [Agents SDK & Response API✍️](https://openai.com/index/new-tools-for-building-agents/): Responses API (Chat Completions + Assistants API), Built-in tools (web search, file search, computer use), Agents SDK for multi-agent workflows, agent workflow observability tools [11 Mar 2025] [✨](https://github.com/openai/openai-agents-python)
+- [Building ChatGPT Atlas✍️](https://openai.com/index/building-chatgpt-atlas/): OpenAI's approach to building Atlas. OWL: OpenAI’s Web Layer. Mojo Protocol. [Oct 2025]
 - [ChatGPT agent✍️](https://openai.com/index/introducing-chatgpt-agent/): Web-browsing, File-editing, Terminal, Email, Spreadsheet, Calendar, API-calling, Automation, Task-chaining, Reasoning. [17 Jul 2025]
 - [ChatGPT can now see, hear, and speak✍️](https://openai.com/blog/chatgpt-can-now-see-hear-and-speak): It has recently been updated to support multimodal capabilities, including voice and image. [25 Sep 2023] [Whisper✨](https://github.com/openai/whisper) / [CLIP✨](https://github.com/openai/Clip)
  ![**github stars**](https://img.shields.io/github/stars/openai/whisper?style=flat-square&label=%20&color=blue&cacheSeconds=36000) ![**github stars**](https://img.shields.io/github/stars/openai/Clip?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
@@ -2711,6 +2727,7 @@ generated webpages are considered better than the original reference webpages` [
 - [AI Model Review](https://aimodelreview.com/): Compare 75 AI Models on 200+ Prompts Side By Side.
 - [Artificial Analysis](https://artificialanalysis.ai/):💡Independent analysis of AI models and API providers.
 - [Inside language models (from GPT to Olympus)](https://lifearchitect.ai/models/)
+- [LiveBench](https://livebench.ai): a benchmark for LLMs designed with test set contamination.
 - [LLMArena](https://lmarena.ai/):💡Chatbot Arena (formerly LMSYS): Free AI Chat to Compare & Test Best AI Chatbots
 - [LLMprices.dev](https://llmprices.dev): Compare prices for models like GPT-4, Claude Sonnet 3.5, Llama 3.1 405b and many more.
 - [LLM Pre-training and Post-training Paradigms](https://sebastianraschka.com/blog/2024/new-llm-pre-training-and-post-training.html) [17 Aug 2024] <br/>
@@ -2718,7 +2735,9 @@ generated webpages are considered better than the original reference webpages` [
 
 #### The Big LLM Architecture Comparison (in 2025)
 
-- [The Big LLM Architecture Comparison](https://sebastianraschka.com/blog/2025/the-big-llm-architecture-comparison.html) [19 Jul 2025]
+- [The Big LLM Architecture Comparison✍️](https://sebastianraschka.com/blog/2025/the-big-llm-architecture-comparison.html):💡 [19 Jul 2025]
+- [Beyond Standard LLMs✍️](https://magazine.sebastianraschka.com/p/beyond-standard-llms):💡Linear Attention Hybrids, Text Diffusion, Code World Models, and Small Recursive Transformers [04 Nov 2025]
+
 
   | Model                 | Parameters | Attention Type                           | MoE                             | Norm                            | Positional Encoding            | Notable Features                                                                            |
   | --------------------- | ---------- | ---------------------------------------- | ------------------------------- | ------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------- |
@@ -2816,7 +2835,7 @@ generated webpages are considered better than the original reference webpages` [
   1. [DeepSeek-Prover-V2✨](https://github.com/deepseek-ai/DeepSeek-Prover-V2): Mathematical reasoning [30 Apr 2025]
   1. [DeepSeek-v3.1🤗](https://huggingface.co/deepseek-ai/DeepSeek-V3.1): Think/Non‑Think hybrid reasoning. 128K and MoE. Agent abilities.  [19 Aug 2025]
   1. [DeepSeek-V3.2-Exp✨](https://github.com/deepseek-ai/DeepSeek-V3.2-Exp) [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-V3.2-Exp?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
-  1. [DeepSeek-OCR✨](https://github.com/deepseek-ai/DeepSeek-OCR) [Oct 2025] ![**github stars**](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-OCR?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+  1. [DeepSeek-OCR✨](https://github.com/deepseek-ai/DeepSeek-OCR): Convert long text into an image, compresses it into visual tokens, and sends those to the LLM — cutting cost and expanding context capacity. [Oct 2025] ![**github stars**](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-OCR?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
   1. A list of models: [✨](https://github.com/deepseek-ai)
 - EleutherAI
   - Founded in July 2020. United States tech. GPT-Neo, GPT-J, GPT-NeoX, and The Pile dataset.
@@ -2887,14 +2906,17 @@ length of 128K tokens, SigLIP encoder, Reasoning [✍️](https://storage.google
   1. [Phi-4-multimodal / mini🤗](https://huggingface.co/microsoft/Phi-4-multimodal-instruct/blob/main/phi_4_mm.tech_report.02252025.pdf) 5.6B. speech, vision, and text processing into a single, unified architecture. [26 Feb 2025]
   1. [Phi-4-reasoning✍️](https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/): Phi-4-reasoning, Phi-4-reasoning-plus, Phi-4-mini-reasoning [30 Apr 2025]
   1. [Phi-4-mini-flash-reasoning✍️](https://azure.microsoft.com/en-us/blog/reasoning-reimagined-introducing-phi-4-mini-flash-reasoning/): 3.8B, 64K context, Single GPU, Decoder-Hybrid-Decoder architecture  [9 Jul 2025]
+- MiniMaxAI
+  - Founded in Dec 2021. Shanghai, China.
+  1. [MiniMax-M2✨](https://github.com/MiniMax-AI/MiniMax-M2): Coding and Agent tasks, 230B (10B Active), MoE, a new high ahead of DeepSeek-V3.2 and Kimi K2 ![**github stars**](https://img.shields.io/github/stars/MiniMax-AI/MiniMax-M2?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 - Mistral
   - Founded in April 2023. French tech.
   1. Model overview [✍️](https://docs.mistral.ai/getting-started/models/)
   1. [NeMo](https://mistral.ai/news/mistral-nemo/): 12B model with 128k context length that outperforms LLama 3 8B [18 Jul 2024]
-  1. [Mistral OCR](https://mistral.ai/news/mistral-ocr): Precise text recognition with up to 99% accuracy. Multimodal. Browser based [6 Mar 2025)
+  1. [Mistral OCR](https://mistral.ai/news/mistral-ocr): Precise text recognition with up to 99% accuracy. Multimodal. Browser based [6 Mar 2025]
 - Moonshot AI
   - Moonshot AI is a Beijing-based Chinese AI company founded in March 2023
-  1. [Kimi-K2✨](https://github.com/MoonshotAI/Kimi-K2): 1T parameter MoE model. MuonClip Optimizer. Agentic Intelligence. [11 Jul 2025)
+  1. [Kimi-K2✨](https://github.com/MoonshotAI/Kimi-K2): 1T parameter MoE model. MuonClip Optimizer. Agentic Intelligence. [11 Jul 2025]
 - NVIDIA
   1. [Nemotron-4 340B](https://research.nvidia.com/publication/2024-06_nemotron-4-340b): Synthetic Data Generation for Training Large Language Models [14 Jun 2024]
 - [ollam](https://ollama.com/library?sort=popular): ollama-supported models
@@ -3075,6 +3097,7 @@ length of 128K tokens, SigLIP encoder, Reasoning [✍️](https://storage.google
 - [ChatGPT’s One-year Anniversary: Are Open-Source Large Language Models Catching up?🔗](#section-12-evaluating-large-language-models--llmops) > Evaluation benchmark: Benchmarks and Performance of LLMs [28 Nov 2023]
 - [Compression Algorithms for Language Models📑](https://alphaxiv.org/abs/2401.15347) [27 Jan 2024]
 - [Context Engineering for Large Language Models📑](https://alphaxiv.org/abs/2507.13334) [17 Jul 2025]
+- [Context Engineering 2.0](https://arxiv.org/abs/2510.26493) [30 Oct 2025]
 - [Data Management For Large Language Models: A Survey📑](https://alphaxiv.org/abs/2312.01700) [4 Dec 2023]
 - [Data Synthesis and Augmentation for Large Language Models📑](https://alphaxiv.org/abs/2410.12896) [16 Oct 2024]
 - [Efficient Guided Generation for Large Language Models📑](https://alphaxiv.org/abs/2307.09702):[[🔢](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=arxiv%3A+2307.09702)] [19 Jul 2023]
@@ -3558,6 +3581,7 @@ databricks-dolly-15k: Instruction-Tuned [✨🤗](https://huggingface.co/dataset
 
  #### Other Benchmarks
 
+- [Alpha Arena](https://nof1.ai/): a benchmark designed to measure AI's investing abilities. [Oct 2025]
 - [Comprehensive and Practical Evaluation of Retrieval-Augmented Generation Systems for Medical Question Answering📑](https://alphaxiv.org/abs/2411.09213) [14 Nov 2024]
 - [Korean SAT LLM Leaderboard✨](https://github.com/Marker-Inc-Korea/Korean-SAT-LLM-Leaderboard): Benchmarking 10 years of Korean CSAT (College Scholastic Ability Test) exams [Oct 2024]
 ![**github stars**](https://img.shields.io/github/stars/Marker-Inc-Korea/Korean-SAT-LLM-Leaderboard?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
@@ -3593,6 +3617,7 @@ databricks-dolly-15k: Instruction-Tuned [✨🤗](https://huggingface.co/dataset
 1. [circuit‑tracer✨](https://github.com/safety-research/circuit-tracer): Anthrophic. Tool for finding and visualizing circuits within large language models. a circuit is a minimal, causal computation pathway inside a transformer model that shows how internal features lead to a specific output. [May 2025] ![**github stars**](https://img.shields.io/github/stars/safety-research/circuit-tracer?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [DeepEval✨](https://github.com/confident-ai/deepeval): LLM evaluation framework. similar to Pytest but specialized for unit testing LLM outputs. [Aug 2023]
  ![**github stars**](https://img.shields.io/github/stars/confident-ai/deepeval?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
+1. [DeepTeam✨](https://github.com/confident-ai/deepteam): A LLM Red Teaming Framework. [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/confident-ai/deepteam?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Giskard✨](https://github.com/Giskard-AI/giskard): The testing framework for ML models, from tabular to LLMs [Mar 2022] ![**github stars**](https://img.shields.io/github/stars/Giskard-AI/giskard?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
 1. [Langfuse](https://langfuse.com): [✨](https://github.com/langfuse/langfuse) LLMOps platform that helps teams to collaboratively monitor, evaluate and debug AI applications. [May 2023] 
  ![**github stars**](https://img.shields.io/github/stars/langfuse/langfuse?style=flat-square&label=%20&color=blue&cacheSeconds=36000)
