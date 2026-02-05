@@ -57,6 +57,7 @@ A comprehensive, curated collection of resources for Azure OpenAI, Large Languag
   - [LlamaIndex](section/applications.md#llamaindex)
   - [Semantic Kernel](section/applications.md#semantic-kernel)
   - [DSPy](section/applications.md#dspy)
+- [Ruleskill](https://ruleskill.com) - We want to verify your code for the RuleSkill Protocol. Claim your badge.
 
 **[⬆ back to top](#azure-openai--llm)**
 
