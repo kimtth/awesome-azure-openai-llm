@@ -125,6 +125,7 @@ A comprehensive, curated collection of resources for Azure OpenAI, Large Languag
 - **Data**
   - [Datasets for LLM Training](section/tools_extra.md#datasets-for-llm-training)
 - **Evaluation**
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
   - [Evaluating Large Language Models](section/tools_extra.md#evaluating-large-language-models)
   - [LLM Evalution Benchmarks](section/tools_extra.md#llm-evalution-benchmarks)
   - [LLMOps: Large Language Model Operations](section/tools_extra.md#llmops-large-language-model-operations)
