@@ -10,22 +10,21 @@
 - [AI Application](#ai-application)
   - [Top Agent Frameworks](#top-agent-frameworks)
   - [Orchestration Framework](#orchestration-framework)
-  - [Frameworks / SDKs / Building Blocks](#frameworks--sdks--building-blocks)
-    - [Multi-Agent \& Swarm Frameworks](#multi-agent--swarm-frameworks)
-    - [General Agent Frameworks](#general-agent-frameworks)
-    - [Official Vendor SDKs](#official-vendor-sdks)
-    - [Monitoring, Training \& Tool Integration](#monitoring-training--tool-integration)
+  - [Frameworks / SDKs](#frameworks--sdks)
+    - [Agent Frameworks](#agent-frameworks)
+    - [Model Serving \& Runtime Libraries](#model-serving--runtime-libraries)
+    - [SDKs \& Integrations](#sdks--integrations)
+    - [LLMOps](#llmops)
     - [NLP \& ML Libraries](#nlp--ml-libraries)
-  - [Apps / Demos / Ready-to-use Agents](#apps--demos--ready-to-use-agents)
+  - [Apps / Ready-to-use Agents](#apps--ready-to-use-agents)
     - [General Autonomous Agents](#general-autonomous-agents)
     - [Knowledge Tools](#knowledge-tools)
     - [Productivity \& Personal Assistants](#productivity--personal-assistants)
     - [Data, Finance \& Analytics](#data-finance--analytics)
-    - [Specialized Agents](#specialized-agents)
   - [Popular LLM Applications (Ranked by GitHub star count ≥1000)](#popular-llm-applications-ranked-by-github-star-count-1000)
   - [No Code \& User Interface](#no-code--user-interface)
   - [Personal AI assistant \& desktop](#personal-ai-assistant--desktop)
-  - [Infrastructure \& Backend Services](#infrastructure--backend-services)
+  - [Training \& Fine-tuning](#training--fine-tuning)
   - [Caching](#caching)
   - [Data Processing](#data-processing)
   - [Gateway](#gateway)
@@ -270,85 +269,96 @@
   - [AdalFlow](https://github.com/SylphAI-Inc/AdalFlow):💡The Library to Build and Auto-optimize LLM Applications. Distinctive for pairing workflow construction with built-in optimization and evaluation [Apr 2024] ![**github stars**](https://img.shields.io/github/stars/SylphAI-Inc/AdalFlow?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
   - [TextGrad](https://github.com/zou-group/textgrad): Automatic "differentiation" via text. Distinctive for improving prompts and outputs through LLM-generated textual feedback [Jun 2024] ![**github stars**](https://img.shields.io/github/stars/zou-group/textgrad?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 
-##### Frameworks / SDKs / Building Blocks
+##### Frameworks / SDKs
 
-###### Multi-Agent & Swarm Frameworks
+###### Agent Frameworks
 
 1. [agency-swarm](https://github.com/VRSEN/agency-swarm): Reliable Multi-Agent Orchestration Framework [Nov 2023] ![**github stars**](https://img.shields.io/github/stars/VRSEN/agency-swarm?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Agno](https://github.com/agno-agi/agno):💡Build Multimodal AI Agents with memory, knowledge and tools. Simple, fast and model-agnostic. [Nov 2023] ![**github stars**](https://img.shields.io/github/stars/agno-agi/agno?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [AgentScope](https://github.com/modelscope/agentscope): To build LLM-empowered multi-agent applications. [Jan 2024] ![**github stars**](https://img.shields.io/github/stars/modelscope/agentscope?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [AgentVerse](https://github.com/OpenBMB/AgentVerse): Primarily providing: task-solving and simulation. [May 2023] ![**github stars**](https://img.shields.io/github/stars/OpenBMB/AgentVerse?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [AWS: Multi-Agent Orchestrator](https://github.com/awslabs/multi-agent-orchestrator): agent-squad
-. a framework for managing multiple AI agents and handling complex conversations. [Jul 2024] ![**github stars**](https://img.shields.io/github/stars/awslabs/multi-agent-orchestrator?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [CAMEL](https://github.com/lightaime/camel): CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society [Mar 2023] ![**github stars**](https://img.shields.io/github/stars/lightaime/camel?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [crewAI](https://github.com/joaomdmoura/CrewAI):💡Framework for orchestrating role-playing, autonomous AI agents. [Oct 2023] ![**github stars**](https://img.shields.io/github/stars/joaomdmoura/CrewAI?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [MetaGPT](https://github.com/geekan/MetaGPT): Multi-Agent Framework. Assign different roles to GPTs to form a collaborative entity for complex tasks. e.g., Data Interpreter [Jun 2023] ![**github stars**](https://img.shields.io/github/stars/geekan/MetaGPT?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Mixture Of Agents (MoA)](https://github.com/togethercomputer/MoA): an architecture that runs multiple LLMs in parallel, then uses a final "aggregator" model to merge their outputs into a superior combined response. [Jun 2024] ![**github stars**](https://img.shields.io/github/stars/togethercomputer/MoA?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [OpenAI Swarm](https://github.com/openai/swarm): An experimental and educational framework for lightweight multi-agent orchestration. [11 Oct 2024] ![**github stars**](https://img.shields.io/github/stars/openai/swarm?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [OWL: Optimized Workforce Learning](https://github.com/camel-ai/owl): a multi-agent collaboration framework built on CAMEL-AI, enhancing task automation [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/camel-ai/owl?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [ROMA: Recursive Open Meta-Agents](https://github.com/sentient-agi/ROMA): an open-source meta-agent framework designed to build high-performance multi-agent systems by decomposing complex tasks into recursive, parallelizable components ![**github stars**](https://img.shields.io/github/stars/sentient-agi/ROMA?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [SwarmZero](https://github.com/swarmzero/swarmzero): SwarmZero's SDK for building AI agents, swarms of agents. [Aug 2024] ![**github stars**](https://img.shields.io/github/stars/swarmzero/swarmzero?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-
-###### General Agent Frameworks
-
-1. [Agno](https://github.com/agno-agi/agno):💡Build Multimodal AI Agents with memory, knowledge and tools. Simple, fast and model-agnostic. [Nov 2023] ![**github stars**](https://img.shields.io/github/stars/agno-agi/agno?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Atomic Agents](https://github.com/BrainBlend-AI/atomic-agents): an extremely lightweight and modular framework for building Agentic AI pipelines [Jun 2024] ![**github stars**](https://img.shields.io/github/stars/BrainBlend-AI/atomic-agents?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [AutoAgent](https://github.com/HKUDS/AutoAgent): AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework ![**github stars**](https://img.shields.io/github/stars/HKUDS/AutoAgent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [AWS: Multi-Agent Orchestrator](https://github.com/awslabs/multi-agent-orchestrator): agent-squad
+. a framework for managing multiple AI agents and handling complex conversations. [Jul 2024] ![**github stars**](https://img.shields.io/github/stars/awslabs/multi-agent-orchestrator?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Bee Agent Framework](https://github.com/i-am-bee/bee-agent-framework): IBM. The TypeScript framework for building scalable agentic applications. [Oct 2024] ![**github stars**](https://img.shields.io/github/stars/i-am-bee/bee-agent-framework?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Burr](https://github.com/dagworks-inc/burr): Create an application as a state machine (graph/flowchart) for managing state, decisions, human feedback, and workflows. [Jan 2024] ![**github stars**](https://img.shields.io/github/stars/dagworks-inc/burr?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [cai](https://github.com/aliasrobotics/cai): Security-focused AI agent framework for offensive and defensive workflows. ![**github stars**](https://img.shields.io/github/stars/aliasrobotics/cai?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [CAMEL](https://github.com/lightaime/camel): CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society [Mar 2023] ![**github stars**](https://img.shields.io/github/stars/lightaime/camel?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Cheshire-Cat (Stregatto)](https://github.com/cheshire-cat-ai/core): Framework to build custom AIs with memory and plugins [Feb 2023] ![**github stars**](https://img.shields.io/github/stars/cheshire-cat-ai/core?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [DataAgent](https://github.com/spring-ai-alibaba/DataAgent): Spring AI Alibaba DataAgent. [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/spring-ai-alibaba/DataAgent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [crewAI](https://github.com/joaomdmoura/CrewAI):💡Framework for orchestrating role-playing, autonomous AI agents. [Oct 2023] ![**github stars**](https://img.shields.io/github/stars/joaomdmoura/CrewAI?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Dagger](https://github.com/dagger/dagger): an open-source runtime for composable workflows. [Nov 2019] ![**github stars**](https://img.shields.io/github/stars/dagger/dagger?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Dynamiq](https://github.com/dynamiq-ai/dynamiq): An orchestration framework for RAG, agentic AI, and LLM applications [Sep 2024] ![**github stars**](https://img.shields.io/github/stars/dynamiq-ai/dynamiq?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Eko (pronounced like 'echo') ](https://github.com/FellouAI/eko): Pure JavaScript. Build Production-ready Agentic Workflow with Natural Language. Support Browser use & Computer use [Nov 2024] ![**github stars**](https://img.shields.io/github/stars/FellouAI/eko?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [hive](https://github.com/adenhq/hive): Outcome driven agent development framework that evolves [Jan 2026] ![**github stars**](https://img.shields.io/github/stars/adenhq/hive?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Jina-Serve](https://github.com/jina-ai/serve): a framework for building and deploying AI services that communicate via gRPC, HTTP and WebSockets. [Feb 2020] ![**github stars**](https://img.shields.io/github/stars/jina-ai/serve?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [kagent](https://github.com/kagent-dev/kagent): Agent framework for Kubernetes and cloud-native operations. ![**github stars**](https://img.shields.io/github/stars/kagent-dev/kagent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Lagent](https://github.com/InternLM/lagent): Inspired by the design philosophy of PyTorch. A lightweight framework for building LLM-based agents. [Aug 2023] ![**github stars**](https://img.shields.io/github/stars/InternLM/lagent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [LaVague](https://github.com/lavague-ai/LaVague): Large Action Model framework to develop AI Web Agents. Generate Selenium code. [Feb 2024] ![**github stars**](https://img.shields.io/github/stars/lavague-ai/LaVague?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [maestro](https://github.com/Doriandarko/maestro): A Framework for Claude Opus, GPT, and local LLMs to Orchestrate Subagents [Mar 2024] ![**github stars**](https://img.shields.io/github/stars/Doriandarko/maestro?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [marvin](https://github.com/PrefectHQ/marvin): a lightweight AI toolkit for building natural language interfaces. [Mar 2023]
 1. [Mastra](https://github.com/mastra-ai/mastra): The TypeScript AI agent framework. workflows, agents, RAG, integrations and evals. [Aug 2024] ![**github stars**](https://img.shields.io/github/stars/mastra-ai/mastra?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [MiniChain](https://github.com/srush/MiniChain): A tiny library for coding with llm [Feb 2023]
-1. [mirascope](https://github.com/Mirascope/mirascope): a library that simplifies working with LLMs via a unified interface for multiple providers. [Dec 2023] ![**github stars**](https://img.shields.io/github/stars/Mirascope/mirascope?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [MetaGPT](https://github.com/geekan/MetaGPT): Multi-Agent Framework. Assign different roles to GPTs to form a collaborative entity for complex tasks. e.g., Data Interpreter [Jun 2023] ![**github stars**](https://img.shields.io/github/stars/geekan/MetaGPT?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Mixture Of Agents (MoA)](https://github.com/togethercomputer/MoA): an architecture that runs multiple LLMs in parallel, then uses a final "aggregator" model to merge their outputs into a superior combined response. [Jun 2024] ![**github stars**](https://img.shields.io/github/stars/togethercomputer/MoA?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [ModelScope-Agent](https://github.com/modelscope/ms-agent): Lightweight Framework for Agents with Autonomous Exploration [Aug 2023] ![**github stars**](https://img.shields.io/github/stars/modelscope/ms-agent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [motia](https://github.com/MotiaDev/motia): Modern Backend Framework that unifies APIs, background jobs, workflows, and AI agents into a single cohesive system with built-in observability and state management. [Jan 2025] ![**github stars**](https://img.shields.io/github/stars/MotiaDev/motia?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Open Agent Platform](https://github.com/langchain-ai/open-agent-platform): Langchain. An open-source, no-code agent building platform. [Apr 2025] ![**github stars**](https://img.shields.io/github/stars/langchain-ai/open-agent-platform?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000) 
+1. [OpenAI Swarm](https://github.com/openai/swarm): An experimental and educational framework for lightweight multi-agent orchestration. [11 Oct 2024] ![**github stars**](https://img.shields.io/github/stars/openai/swarm?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [OWL: Optimized Workforce Learning](https://github.com/camel-ai/owl): a multi-agent collaboration framework built on CAMEL-AI, enhancing task automation [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/camel-ai/owl?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [parlant](https://github.com/emcie-co/parlant): Instead of hoping your LLM will follow instructions, Parlant ensures rule compliance, Predictable, consistent behavior [Feb 2024] ![**github stars**](https://img.shields.io/github/stars/emcie-co/parlant?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [phidata](https://github.com/phidatahq/phidata): Build AI Assistants with memory, knowledge, and tools [May 2022] ![**github stars**](https://img.shields.io/github/stars/phidatahq/phidata?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Pipecat](https://github.com/pipecat-ai/pipecat): Open Source framework for voice and multimodal conversational AI [Dec 2023] ![**github stars**](https://img.shields.io/github/stars/pipecat-ai/pipecat?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [PocketFlow](https://github.com/miniLLMFlow/PocketFlow): Minimalist LLM Framework in 100 Lines. Enable LLMs to Program Themselves. [Dec 2024] ![**github stars**](https://img.shields.io/github/stars/miniLLMFlow/PocketFlow?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [PydanticAI](https://github.com/pydantic/pydantic-ai): Agent Framework / shim to use Pydantic with LLMs. Model-agnostic. Type-safe. [29 Oct 2024] ![**github stars**](https://img.shields.io/github/stars/pydantic/pydantic-ai?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent): Agent framework built upon Qwen1.5, featuring Function Calling, Code Interpreter, RAG, and Chrome extension. [Sep 2023] ![**github stars**](https://img.shields.io/github/stars/QwenLM/Qwen-Agent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [ralph](https://github.com/snarktank/ralph): an autonomous AI agent loop that runs Amp repeatedly until all PRD items are complete. [Jan 2026] ![**github stars**](https://img.shields.io/github/stars/snarktank/ralph?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Spring AI](https://github.com/spring-projects-experimental/spring-ai): Developing AI applications for Java. [Jul 2023]
+1. [ROMA: Recursive Open Meta-Agents](https://github.com/sentient-agi/ROMA): an open-source meta-agent framework designed to build high-performance multi-agent systems by decomposing complex tasks into recursive, parallelizable components ![**github stars**](https://img.shields.io/github/stars/sentient-agi/ROMA?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Strands Agents](https://github.com/strands-agents/sdk-python): Model‑Driven, Tool‑First Architecture. No need to hard-code logic. Just define tools and models—the system figures out how to use them. [May 2025] ![**github stars**](https://img.shields.io/github/stars/strands-agents/sdk-python?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Superagent](https://github.com/superagent-ai/superagent): AI Assistant Framework & API [May 2023]
 1. [SuperAGI](https://github.com/TransformerOptimus/SuperAGI): Autonomous AI Agents framework [May 2023] ![**github stars**](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [TanStack](https://github.com/TanStack/ai): TypeScript-based AI SDK for building LLM-powered applications. [Oct 2025] ![**github stars**](https://img.shields.io/github/stars/TanStack/ai?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [SwarmZero](https://github.com/swarmzero/swarmzero): SwarmZero's SDK for building AI agents, swarms of agents. [Aug 2024] ![**github stars**](https://img.shields.io/github/stars/swarmzero/swarmzero?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [VoltAgent](https://github.com/VoltAgent/voltagent): Open Source TypeScript AI Agent Framework [Apr 2025] ![**github stars**](https://img.shields.io/github/stars/VoltAgent/voltagent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 
-###### Official Vendor SDKs
+###### Model Serving & Runtime Libraries
 
-1. [Claude Agent SDK for Python](https://github.com/anthropics/claude-agent-sdk-python) [Jun 2025] ![**github stars**](https://img.shields.io/github/stars/anthropics/claude-agent-sdk-python?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Copilot SDK](https://github.com/github/copilot-sdk): Multi-platform SDK for integrating GitHub Copilot Agent into apps and services [Jan 2026] ![**github stars**](https://img.shields.io/github/stars/github/copilot-sdk?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Google ADK](https://github.com/google/adk-python): Agent Development Kit (ADK) [Apr 2025] ![**github stars**](https://img.shields.io/github/stars/google/adk-python?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Llama Stack](https://github.com/meta-llama/llama-stack):💡building blocks for Large Language Model (LLM) development [Jun 2024]
-1. [Open AI Assistant API](https://platform.openai.com/docs/assistants/overview) [6 Nov 2023]
-1. [OpenAI Agents SDK & Response API](https://github.com/openai/openai-agents-python):🏆Responses API (Chat Completions + Assistants API), Built-in tools (web search, file search, computer use), Agents SDK for multi-agent workflows, agent workflow observability tools [11 Mar 2025] ![**github stars**](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [exo](https://github.com/exo-explore/exo): Run your own AI cluster at home with everyday devices [Jun 2024]
+1. [GPT4All](https://github.com/nomic-ai/gpt4all): Open-source large language models that run locally on your CPU [Mar 2023]
+1. [Harbor](https://github.com/av/harbor): Effortlessly run LLM backends, APIs, frontends, and services with one command. a helper for the local LLM development environment. [Jul 2024] ![**github stars**](https://img.shields.io/github/stars/av/harbor?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [KTransformers](https://github.com/kvcache-ai/ktransformers): A Flexible Framework for Experiencing Cutting-edge LLM Inference Optimizations [Jul 2024] ![**github stars**](https://img.shields.io/github/stars/kvcache-ai/ktransformers?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [ollama](https://github.com/jmorganca/ollama):💡Running with Large language models locally [Jun 2023]
+1. [vLLM](https://github.com/vllm-project/vllm): Easy-to-use library for LLM inference and serving. [Feb 2023]
+1. [vllm-omni](https://github.com/vllm-project/vllm-omni): A framework for efficient model inference with omni-modality models [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/vllm-project/vllm-omni?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [WebLLM](https://github.com/mlc-ai/web-llm): High-Performance In-Browser LLM Inference Engine. [Apr 2023] ![**github stars**](https://img.shields.io/github/stars/mlc-ai/web-llm?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 
-###### Monitoring, Training & Tool Integration
+###### SDKs & Integrations
 
 1. [Agent-Field](https://github.com/Agent-Field/agentfield): Kubernetes for AI Agents. Build and run AI like microservices. [Nov 2025] ![**github stars**](https://img.shields.io/github/stars/Agent-Field/agentfield?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [AgentOps](https://github.com/AgentOps-AI/agentops):Python SDK for AI agent monitoring, LLM cost tracking, benchmarking. [Aug 2023] ![**github stars**](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [ART](https://github.com/OpenPipe/ART): Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/OpenPipe/ART?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Claude Agent SDK for Python](https://github.com/anthropics/claude-agent-sdk-python) [Jun 2025] ![**github stars**](https://img.shields.io/github/stars/anthropics/claude-agent-sdk-python?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Copilot SDK](https://github.com/github/copilot-sdk): Multi-platform SDK for integrating GitHub Copilot Agent into apps and services [Jan 2026] ![**github stars**](https://img.shields.io/github/stars/github/copilot-sdk?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [E2B](https://github.com/e2b-dev/e2b): an open-source infrastructure that allows you run to AI-generated code in secure isolated sandboxes in the cloud. [Mar 2023] ![**github stars**](https://img.shields.io/github/stars/e2b-dev/e2b?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Google ADK](https://github.com/google/adk-python): Agent Development Kit (ADK) [Apr 2025] ![**github stars**](https://img.shields.io/github/stars/google/adk-python?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [guardrails](https://github.com/guardrails-ai/guardrails): Adding guardrails to large language models. [Jan 2023]
+1. [Llama Stack](https://github.com/meta-llama/llama-stack):💡building blocks for Large Language Model (LLM) development [Jun 2024]
+1. [mirascope](https://github.com/Mirascope/mirascope): a library that simplifies working with LLMs via a unified interface for multiple providers. [Dec 2023] ![**github stars**](https://img.shields.io/github/stars/Mirascope/mirascope?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [MiniChain](https://github.com/srush/MiniChain): A tiny library for coding with llm [Feb 2023]
+1. [Open AI Assistant API](https://platform.openai.com/docs/assistants/overview) [6 Nov 2023]
+1. [OpenAI Agents SDK & Response API](https://github.com/openai/openai-agents-python):🏆Responses API (Chat Completions + Assistants API), Built-in tools (web search, file search, computer use), Agents SDK for multi-agent workflows, agent workflow observability tools [11 Mar 2025] ![**github stars**](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Semantic Router](https://github.com/aurelio-labs/semantic-router): Decision routing for LLMs and agents using semantic vector intelligence. [Oct 2023] ![**github stars**](https://img.shields.io/github/stars/aurelio-labs/semantic-router?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Spring AI](https://github.com/spring-projects-experimental/spring-ai): Developing AI applications for Java. [Jul 2023]
+1. [TanStack](https://github.com/TanStack/ai): TypeScript-based AI SDK for building LLM-powered applications. [Oct 2025] ![**github stars**](https://img.shields.io/github/stars/TanStack/ai?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [ThinkGPT](https://github.com/jina-ai/thinkgpt): Chain of Thoughts library [Apr 2023]
+1. [Universal-Commerce-Protocol/ucp](https://github.com/Universal-Commerce-Protocol/ucp): Specification and documentation for the Universal Commerce Protocol (UCP). [Dec 2025] ![**github stars**](https://img.shields.io/github/stars/Universal-Commerce-Protocol/ucp?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [composio](https://github.com/ComposioHQ/composio): Integration of Agents with 100+ Tools [Feb 2024] ![**github stars**](https://img.shields.io/github/stars/ComposioHQ/composio?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Continuous-Claude-v3](https://github.com/parcadei/Continuous-Claude-v3): About
-Context management for Claude Code. Hooks maintain state via ledgers and handoffs. [Dec 2025] ![**github stars**](https://img.shields.io/github/stars/parcadei/Continuous-Claude-v3?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Dagger](https://github.com/dagger/dagger): an open-source runtime for composable workflows. [Nov 2019] ![**github stars**](https://img.shields.io/github/stars/dagger/dagger?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Eko (pronounced like 'echo') ](https://github.com/FellouAI/eko): Pure JavaScript. Build Production-ready Agentic Workflow with Natural Language. Support Browser use & Computer use [Nov 2024] ![**github stars**](https://img.shields.io/github/stars/FellouAI/eko?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Continuous-Claude-v3](https://github.com/parcadei/Continuous-Claude-v3): About Context management for Claude Code. Hooks maintain state via ledgers and handoffs. [Dec 2025] ![**github stars**](https://img.shields.io/github/stars/parcadei/Continuous-Claude-v3?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [ell](https://github.com/MadcowD/ell): Treats prompts as programs with built-in versioning, monitoring, and tooling for LLMs. [Jul 2024] ![**github stars**](https://img.shields.io/github/stars/MadcowD/ell?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Jina-Serve](https://github.com/jina-ai/serve): a framework for building and deploying AI services that communicate via gRPC, HTTP and WebSockets. [Feb 2020] ![**github stars**](https://img.shields.io/github/stars/jina-ai/serve?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [LaVague](https://github.com/lavague-ai/LaVague): Automate automation with Large Action Model framework. Generate Selenium code. [Feb 2024] ![**github stars**](https://img.shields.io/github/stars/lavague-ai/LaVague?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [OpenEnv](https://github.com/meta-pytorch/OpenEnv): An e2e framework for isolated execution environments for agentic RL training, built using Gymnasium style simple APIs. [Oct 2025] ![**github stars**](https://img.shields.io/github/stars/meta-pytorch/OpenEnv?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [PayPal Agent Toolkit](https://github.com/paypal/agent-toolkit): OpenAI's Agent SDK, LangChain, Vercel's AI SDK, and Model Context Protocol (MCP) to integrate with PayPal APIs through function calling. [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/paypal/agent-toolkit?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000) 
-1. [Pipecat](https://github.com/pipecat-ai/pipecat): Open Source framework for voice and multimodal conversational AI [Dec 2023] ![**github stars**](https://img.shields.io/github/stars/pipecat-ai/pipecat?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Memento](https://github.com/Agent-on-the-Fly/Memento): Fine-tuning LLM Agents without Fine-tuning LLMs [Jun 2025] ![**github stars**](https://img.shields.io/github/stars/Agent-on-the-Fly/Memento?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+
+###### LLMOps
+
+1. [AgentOps](https://github.com/AgentOps-AI/agentops):Python SDK for AI agent monitoring, LLM cost tracking, benchmarking. [Aug 2023] ![**github stars**](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [BISHENG](https://github.com/dataelement/bisheng): an open LLM application devops platform, focusing on enterprise scenarios. [Aug 2023]
+1. [keep](https://github.com/keephq/keep): The open-source AIOps and alert management platform [Feb 2023] ![**github stars**](https://img.shields.io/github/stars/keephq/keep?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [langfuse](https://github.com/langfuse/langfuse): Traces, evals, prompt management and metrics to debug and improve your LLM application. [May 2023]
 1. [TaskingAI](https://github.com/TaskingAI/TaskingAI): A BaaS (Backend as a Service) platform for LLM-based Agent Development and Deployment. [Jan 2024] ![**github stars**](https://img.shields.io/github/stars/TaskingAI/TaskingAI?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Weights & Biases](https://github.com/wandb/examples): Visualizing and tracking your machine learning experiments [wandb.ai](https://wandb.ai/) doc: `deeplearning.ai/wandb` [Jan 2020]
 1. [xpander.ai](https://github.com/xpander-ai/xpander.ai): Backend-as-a-Service for AI Agents. Equip any AI Agent with tools, memory, multi-agent collaboration, state, triggering, storage, and more. [May 2025] ![**github stars**](https://img.shields.io/github/stars/xpander-ai/xpander.ai?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 
 ###### NLP & ML Libraries
@@ -361,7 +371,7 @@ Context management for Claude Code. Hooks maintain state via ledgers and handoff
 1. [string2string](https://github.com/stanfordnlp/string2string): an open-source tool that offers a comprehensive suite of efficient algorithms for a broad range of string-to-string problems. [Mar 2023]
 1. [Tokenizer (microsoft)](https://github.com/microsoft/Tokenizer): Tiktoken in C#: .NET and TypeScript implementation of BPE tokenizer for OpenAI LLMs. [Mar 2023] ![**github stars**](https://img.shields.io/github/stars/microsoft/Tokenizer?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 
-##### Apps / Demos / Ready-to-use Agents
+##### Apps / Ready-to-use Agents
 
 ###### General Autonomous Agents
 
@@ -420,26 +430,13 @@ Context management for Claude Code. Hooks maintain state via ledgers and handoff
 ###### Data, Finance & Analytics
 
 1. [dash](https://github.com/agno-agi/dash): Self-learning data agent built with Agno.  Inspired by OpenAI's in-house implementation. [Jan 2026] ![**github stars**](https://img.shields.io/github/stars/agno-agi/dash?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [DataAgent](https://github.com/spring-ai-alibaba/DataAgent): Spring AI Alibaba DataAgent. [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/spring-ai-alibaba/DataAgent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [mindsdb](https://github.com/mindsdb/mindsdb): The open-source virtual database for building AI from enterprise data. It supports SQL syntax for development and deployment, with over 70 technology and data integrations. [Aug 2018] ![**github stars**](https://img.shields.io/github/stars/mindsdb/mindsdb?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [OpenAgents](https://github.com/xlang-ai/OpenAgents): Three distinct agents: Data Agent for data analysis, Plugins Agent for plugin integration, and Web Agent for autonomous web browsing. [Aug 2023] ![**github stars**](https://img.shields.io/github/stars/xlang-ai/OpenAgents?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [OpenBB](https://github.com/OpenBB-finance/OpenBB): The first financial Platform that is free and fully open source. AI-powered workspace [Dec 2020] ![**github stars**](https://img.shields.io/github/stars/OpenBB-finance/OpenBB?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [pyspark-ai](https://github.com/pyspark-ai/pyspark-ai): English instructions and compile them into PySpark objects like DataFrames. [Apr 2023]
 1. [ValueCell](https://github.com/ValueCell-ai/valuecell): a community-driven, multi-agent platform for financial applications. [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/ValueCell-ai/valuecell?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [WrenAI](https://github.com/Canner/WrenAI): Open-source SQL AI Agent for Text-to-SQL [Mar 2024] ![**github stars**](https://img.shields.io/github/stars/Canner/WrenAI?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-
-###### Specialized Agents
-
-1. [A2UI](https://github.com/google/A2UI): an open standard and set of libraries that allows agents to "speak UI." Agents send a declarative JSON format describing the intent of the UI. The client application then renders this using its own native component library. [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/google/A2UI?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Agent-R1](https://github.com/0russwest0/Agent-R1): End-to-End reinforcement learning to train agents in specific environments. [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/0russwest0/Agent-R1?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Agent-S](https://github.com/simular-ai/Agent-S): To build intelligent GUI agents that autonomously learn and perform complex tasks on your computer. [Oct 2024] ![**github stars**](https://img.shields.io/github/stars/simular-ai/Agent-S?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Agentarium](https://github.com/Thytu/Agentarium): a framework for creating and managing simulations populated with AI-powered agents. [Dec 2024] ![**github stars**](https://img.shields.io/github/stars/Thytu/Agentarium?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Mobile-Agent](https://github.com/X-PLUG/MobileAgent): The Powerful Mobile Device Operation Assistant Family. [Jan 2024] ![**github stars**](https://img.shields.io/github/stars/X-PLUG/MobileAgent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [pentagi](https://github.com/vxcontrol/pentagi): Autonomous AI system for penetration testing with 20+ security tools and sandboxed execution. [Jan 2025] ![**github stars**](https://img.shields.io/github/stars/vxcontrol/pentagi?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Realtime API Agents Demo](https://github.com/openai/openai-realtime-agents): a simple demonstration of more advanced, agentic patterns built on top of the Realtime API. OpenAI. [Jan 2025] ![**github stars**](https://img.shields.io/github/stars/openai/openai-realtime-agents?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [skyagi](https://github.com/litanlitudan/skyagi): Simulating believable human behaviors. Role playing [Apr 2023] ![**github stars**](https://img.shields.io/github/stars/litanlitudan/skyagi?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Strix](https://github.com/usestrix/strix): Open-source AI Hackers to secure your Apps. [Aug 2025] ![**github stars**](https://img.shields.io/github/stars/usestrix/strix?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [TEN Agent](https://github.com/TEN-framework/TEN-Agent): The world's first real-time multimodal agent integrated with the OpenAI Realtime API. [Jun 2024] ![**github stars**](https://img.shields.io/github/stars/TEN-framework/TEN-Agent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [UpSonic](https://github.com/Upsonic/UpSonic): (previously GPT Computer Assistant(GCA)) an AI agent framework designed to make computer use. [May 2024]
 
 ###### Popular LLM Applications (Ranked by GitHub star count ≥1000)
 
@@ -448,12 +445,14 @@ Context management for Claude Code. Hooks maintain state via ledgers and handoff
 #### No Code & User Interface
 
 1. [1code](https://github.com/21st-dev/1code): Best UI for Claude Code [Jan 2026] ![**github stars**](https://img.shields.io/github/stars/21st-dev/1code?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [A2UI](https://github.com/google/A2UI): an open standard and set of libraries that allows agents to "speak UI." Agents send a declarative JSON format describing the intent of the UI. The client application then renders this using its own native component library. [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/google/A2UI?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [agentation.dev✍️](https://agentation.dev/): Agentation converts UI annotations into structured context for AI coding agents. Click an element, add a note, and paste into tools like Claude Code or Codex.
 1. [ai-town](https://github.com/a16z-infra/ai-town): a virtual town where AI characters live, chat and socialize. [Jul 2023] ![**github stars**](https://img.shields.io/github/stars/a16z-infra/ai-town?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [anse](https://github.com/anse-app/anse): UI for multiple models such as ChatGPT, DALL-E and Stable Diffusion. [Apr 2023]
 1. [anything-llm](https://github.com/Mintplex-Labs/anything-llm): All-in-one Desktop & Docker AI application with built-in RAG, AI agents, and more. [Jun 2023] ![**github stars**](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [AppAgent-TencentQQGYLab](https://github.com/mnotgod96/AppAgent): Multimodal Agents as Smartphone Users. [Dec 2023] ![**github stars**](https://img.shields.io/github/stars/mnotgod96/AppAgent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [BIG-AGI](https://github.com/enricoros/big-agi) FKA nextjs-chatgpt-app [Mar 2023] ![**github stars**](https://img.shields.io/github/stars/enricoros/big-agi?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Botpress Cloud](https://github.com/botpress/botpress): The open-source hub to build & deploy GPT/LLM Agents. [Nov 2016] ![**github stars**](https://img.shields.io/github/stars/botpress/botpress?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [browser-use](https://github.com/browser-use/browser-use): Make websites accessible for AI agents. [Nov 2024] ![**github stars**](https://img.shields.io/github/stars/browser-use/browser-use?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [ChainForge](https://github.com/ianarawjo/ChainForge): An open-source visual programming environment for battle-testing prompts to LLMs. [Mar 2023] ![**github stars**](https://img.shields.io/github/stars/ianarawjo/ChainForge?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [chainlit](https://github.com/Chainlit/chainlit):💡Build production-ready Conversational AI applications in minutes. [Mar 2023]
@@ -476,7 +475,6 @@ Context management for Claude Code. Hooks maintain state via ledgers and handoff
 1. [Kiln](https://github.com/Kiln-AI/Kiln): Desktop Apps for for fine-tuning LLM models, synthetic data generation, and collaborating on datasets. [Aug 2024] ![**github stars**](https://img.shields.io/github/stars/Kiln-AI/Kiln?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [knowledge](https://github.com/KnowledgeCanvas/knowledge): Tool for saving, searching, accessing, and exploring websites and files. Electron based app, built-in Chromium browser, knowledge graph [Jul 2021] ![**github stars**](https://img.shields.io/github/stars/KnowledgeCanvas/knowledge?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [langflow](https://github.com/langflow-ai/langflow): LangFlow is a UI for LangChain, designed with react-flow. [Feb 2023]
-1. [langfuse](https://github.com/langfuse/langfuse): Traces, evals, prompt management and metrics to debug and improve your LLM application. [May 2023]
 1. [LangGraph](https://github.com/langchain-ai/langgraph): Built on top of LangChain [Aug 2023] ![**github stars**](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [ludwig](https://github.com/ludwig-ai/ludwig): Low-code framework for building custom LLMs and other AI models. ![**github stars**](https://img.shields.io/github/stars/ludwig-ai/ludwig?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Letta ADE](https://github.com/letta-ai/letta): a graphical user interface for ADE (Agent Development Environment) by [Letta (previously MemGPT)](https://github.com/letta-ai/letta) [12 Oct 2023]
@@ -488,6 +486,7 @@ Context management for Claude Code. Hooks maintain state via ledgers and handoff
 1. [nanobrowser](https://github.com/nanobrowser/nanobrowser): Open-source Chrome extension for AI-powered web automation. Alternative to OpenAI Operator. [Dec 2024] ![**github stars**](https://img.shields.io/github/stars/nanobrowser/nanobrowser?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Next.js AI Chatbot](https://github.com/vercel/ai-chatbot):💡An Open-Source AI Chatbot Template Built With Next.js and the AI SDK by Vercel. [May 2023] ![**github stars**](https://img.shields.io/github/stars/vercel/ai-chatbot?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [NocoBase](https://github.com/nocobase/nocobase): Data model-driven. AI-powered no-code platform. [Oct 2020] ![**github stars**](https://img.shields.io/github/stars/nocobase/nocobase?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Open Agent Platform](https://github.com/langchain-ai/open-agent-platform): Langchain. An open-source, no-code agent building platform. [Apr 2025] ![**github stars**](https://img.shields.io/github/stars/langchain-ai/open-agent-platform?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Open WebUI](https://github.com/open-webui/open-webui): User-friendly AI Interface (Supports Ollama, OpenAI API, ...) [Oct 2023] ![**github stars**](https://img.shields.io/github/stars/open-webui/open-webui?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Refly](https://github.com/refly-ai/refly): WYSIWYG AI editor to create llm application. [Feb 2024] ![**github stars**](https://img.shields.io/github/stars/refly-ai/refly?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Sim Studio](https://github.com/simstudioai/sim): A Figma-like canvas to build agent workflow. [Jan 2025] ![**github stars**](https://img.shields.io/github/stars/simstudioai/sim?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
@@ -512,39 +511,23 @@ Context management for Claude Code. Hooks maintain state via ledgers and handoff
 1. [picoclaw](https://github.com/sipeed/picoclaw): AI assistant in Go for $10 hardware — <10MB RAM, 1s boot, runs on RISC-V/ARM/x86. [Feb 2026] ![**github stars**](https://img.shields.io/github/stars/sipeed/picoclaw?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [zeroclaw](https://github.com/zeroclaw-labs/zeroclaw): Zero-shot agent toolkit for extending autonomous workflows. ![**github stars**](https://img.shields.io/github/stars/zeroclaw-labs/zeroclaw?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 
-#### Infrastructure & Backend Services
+#### Training & Fine-tuning
 
-1. [Azure OpenAI Proxy](https://github.com/scalaone/azure-openai-proxy): OpenAI API requests converting into Azure OpenAI API requests [Mar 2023]
-1. [BISHENG](https://github.com/dataelement/bisheng): an open LLM application devops platform, focusing on enterprise scenarios. [Aug 2023]
-1. [Botpress Cloud](https://github.com/botpress/botpress): The open-source hub to build & deploy GPT/LLM Agents. [Nov 2016] ![**github stars**](https://img.shields.io/github/stars/botpress/botpress?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [E2B](https://github.com/e2b-dev/e2b): an open-source infrastructure that allows you run to AI-generated code in secure isolated sandboxes in the cloud. [Mar 2023] ![**github stars**](https://img.shields.io/github/stars/e2b-dev/e2b?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [exo](https://github.com/exo-explore/exo): Run your own AI cluster at home with everyday devices [Jun 2024]
-1. [GPT4All](https://github.com/nomic-ai/gpt4all): Open-source large language models that run locally on your CPU [Mar 2023]
-1. [guardrails](https://github.com/guardrails-ai/guardrails): Adding guardrails to large language models. [Jan 2023]
-1. [Harbor](https://github.com/av/harbor): Effortlessly run LLM backends, APIs, frontends, and services with one command. a helper for the local LLM development environment. [Jul 2024] ![**github stars**](https://img.shields.io/github/stars/av/harbor?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [kagent](https://github.com/kagent-dev/kagent): Agent framework for Kubernetes and cloud-native operations. ![**github stars**](https://img.shields.io/github/stars/kagent-dev/kagent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [keep](https://github.com/keephq/keep): The open-source AIOps and alert management platform [Feb 2023] ![**github stars**](https://img.shields.io/github/stars/keephq/keep?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [KTransformers](https://github.com/kvcache-ai/ktransformers): A Flexible Framework for Experiencing Cutting-edge LLM Inference Optimizations [Jul 2024] ![**github stars**](https://img.shields.io/github/stars/kvcache-ai/ktransformers?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [ART](https://github.com/OpenPipe/ART): Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/OpenPipe/ART?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): Unify Efficient Fine-Tuning of 100+ LLMs [May 2023]
 1. [mosaicml/llm-foundry](https://github.com/mosaicml/llm-foundry): LLM training code for MosaicML foundation models [Jun 2022]
 1. [Meta Lingua](https://github.com/facebookresearch/lingua): a minimal and fast LLM training and inference library designed for research. [Oct 2024] ![**github stars**](https://img.shields.io/github/stars/facebookresearch/lingua?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [ollama](https://github.com/jmorganca/ollama):💡Running with Large language models locally [Jun 2023]
+1. [Memento](https://github.com/Agent-on-the-Fly/Memento): Fine-tuning LLM Agents without Fine-tuning LLMs [Jun 2025] ![**github stars**](https://img.shields.io/github/stars/Agent-on-the-Fly/Memento?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [OpenEnv](https://github.com/meta-pytorch/OpenEnv): An e2e framework for isolated execution environments for agentic RL training, built using Gymnasium style simple APIs. [Oct 2025] ![**github stars**](https://img.shields.io/github/stars/meta-pytorch/OpenEnv?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [promptomatix](https://github.com/SalesforceAIResearch/promptomatix/): An Automatic Prompt Optimization Framework for Large Language Models [Jul 2025] ![**github stars**](https://img.shields.io/github/stars/SalesforceAIResearch/promptomatix?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Reranker](https://github.com/luyug/Reranker): Training and deploying deep languge model reranker in information retrieval (IR), question answering (QA) [Jan 2021] ![**github stars**](https://img.shields.io/github/stars/luyug/Reranker?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Tinker Cookbook](https://github.com/thinking-machines-lab/tinker-cookbook): Thinking Machines Lab. Training SDK to fine-tune language models. [Jul 2025] ![**github stars**](https://img.shields.io/github/stars/thinking-machines-lab/tinker-cookbook?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [RLinf](https://github.com/RLinf/RLinf): Post-training foundation models (LLMs, VLMs, VLAs) via reinforcement learning. [Aug 2025] ![**github stars**](https://img.shields.io/github/stars/RLinf/RLinf?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Semantic Router](https://github.com/aurelio-labs/semantic-router): Decision routing for LLMs and agents using semantic vector intelligence. [Oct 2023] ![**github stars**](https://img.shields.io/github/stars/aurelio-labs/semantic-router?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [ThinkGPT](https://github.com/jina-ai/thinkgpt): Chain of Thoughts library [Apr 2023]
 1. [Transformers](https://github.com/huggingface/transformers): 🤗 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX. (github.com) [Oct 2018]
 1. [Transformer Lab](https://github.com/transformerlab/transformerlab-app): Open Source Application for Advanced LLM + Diffusion Engineering: interact, train, fine-tune, and evaluation. [Dec 2023] ![**github stars**](https://img.shields.io/github/stars/transformerlab/transformerlab-app?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [unsloth](https://github.com/unslothai/unsloth): Finetune Mistral, Gemma, Llama 2-5x faster with less memory! [Nov 2023]
-1. [Universal-Commerce-Protocol/ucp](https://github.com/Universal-Commerce-Protocol/ucp): Specification and documentation for the Universal Commerce Protocol (UCP). [Dec 2025] ![**github stars**](https://img.shields.io/github/stars/Universal-Commerce-Protocol/ucp?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [verl](https://github.com/volcengine/verl): ByteDance. RL training library for LLMs [Oct 2024] ![**github stars**](https://img.shields.io/github/stars/volcengine/verl?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [vLLM](https://github.com/vllm-project/vllm): Easy-to-use library for LLM inference and serving. [Feb 2023]
-1. [vllm-omni](https://github.com/vllm-project/vllm-omni): A framework for efficient model inference with omni-modality models [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/vllm-project/vllm-omni?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [YaFSDP](https://github.com/yandex/YaFSDP): Yet another Fully Sharded Data Parallel (FSDP): enhanced for distributed training. YaFSDP vs DeepSpeed. [May 2024]
-1. [WebLLM](https://github.com/mlc-ai/web-llm): High-Performance In-Browser LLM Inference Engine. [Apr 2023] ![**github stars**](https://img.shields.io/github/stars/mlc-ai/web-llm?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Weights & Biases](https://github.com/wandb/examples): Visualizing and tracking your machine learning experiments [wandb.ai](https://wandb.ai/) doc: `deeplearning.ai/wandb` [Jan 2020]
 
 #### **Caching**
 
@@ -612,6 +595,7 @@ Context management for Claude Code. Hooks maintain state via ledgers and handoff
 
 #### **Gateway**
 
+1. [Azure OpenAI Proxy](https://github.com/scalaone/azure-openai-proxy): OpenAI API requests converting into Azure OpenAI API requests [Mar 2023]
 1. [AI Gateway](https://github.com/Portkey-AI/gateway): AI Gateway with integrated guardrails. Route to 200+ LLMs, 50+ AI Guardrails [Aug 2023] ![**github stars**](https://img.shields.io/github/stars/Portkey-AI/gateway?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [aisuite](https://github.com/andrewyng/aisuite): Andrew Ng launches a tool offering a simple, unified interface for multiple generative AI providers. [26 Nov 2024] ![**github stars**](https://img.shields.io/github/stars/andrewyng/aisuite?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000) vs [litellm](https://github.com/BerriAI/litellm) vs [OpenRouter](https://github.com/OpenRouterTeam/openrouter-runner)
 1. [litellm](https://github.com/BerriAI/litellm): Python SDK to call 100+ LLM APIs in OpenAI format [Jul 2023]
@@ -774,6 +758,7 @@ Context management for Claude Code. Hooks maintain state via ledgers and handoff
 1. [PySpur](https://github.com/PySpur-Dev/pyspur): Drag-and-Drop. an AI agent builder in Python. [Sep 2024] ![**github stars**](https://img.shields.io/github/stars/PySpur-Dev/pyspur?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Python-to-Rust Migration with Claude✍️](https://www.infoworld.com/article/4135218/what-i-learned-using-claude-sonnet-to-migrate-python-to-rust.html): Lessons from using Claude on cross-language migrations. [2025]
 1. [QueryWeaver](https://github.com/FalkorDB/QueryWeaver): An open-source Text2SQL tool that converts plain-English questions into SQL using graph-powered schema understanding. ![**github stars**](https://img.shields.io/github/stars/FalkorDB/QueryWeaver?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [ralph](https://github.com/snarktank/ralph): an autonomous AI agent loop that runs Amp repeatedly until all PRD items are complete. [Jan 2026] ![**github stars**](https://img.shields.io/github/stars/snarktank/ralph?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Replit Agent](https://replit.com/) [09 Sep 2024]
 1. [Ruler](https://github.com/intellectronica/ruler): Centralise Your AI Coding Assistant Instructions [May 2025] ![**github stars**](https://img.shields.io/github/stars/intellectronica/ruler?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [screenshot-to-code](https://github.com/abi/screenshot-to-code): Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue) [Nov 2023]
@@ -831,9 +816,13 @@ Supercharge Claude Code with 11 AI agents, 36 commands & 15 skills. ![**github s
 #### Domain-Specific Agents
 
 1. [5 Top AI Agents for Earth Snapshots](https://x.com/MaryamMiradi/status/1866527000963211754) VLMs and LLMs for Geospatial Intelligent Analysis: [GeoChat📑](https://arxiv.org/abs/2311.15826) | [GEOBench-VLM📑](https://arxiv.org/abs/2411.19325) | [RS5M](https://github.com/om-ai-lab/RS5M) | [VHM](https://github.com/opendatalab/VHM) | [EarthGPT](https://ieeexplore.ieee.org/document/10547418)
-1. [An LLM Agent for Automatic Geospatial Data Analysis📑](https://arxiv.org/abs/2410.18792) [24 Oct 2024]
+1. [A2UI](https://github.com/google/A2UI): an open standard and set of libraries that allows agents to "speak UI." Agents send a declarative JSON format describing the intent of the UI. The client application then renders this using its own native component library. [Sep 2025] ![**github stars**](https://img.shields.io/github/stars/google/A2UI?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Agent-R1](https://github.com/0russwest0/Agent-R1): End-to-End reinforcement learning to train agents in specific environments. [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/0russwest0/Agent-R1?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Agent-S](https://github.com/simular-ai/Agent-S): To build intelligent GUI agents that autonomously learn and perform complex tasks on your computer. [Oct 2024] ![**github stars**](https://img.shields.io/github/stars/simular-ai/Agent-S?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Agentarium](https://github.com/Thytu/Agentarium): a framework for creating and managing simulations populated with AI-powered agents. [Dec 2024] ![**github stars**](https://img.shields.io/github/stars/Thytu/Agentarium?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [AgentSociety](https://github.com/tsinghua-fib-lab/agentsociety): Building agents in urban simulation environments. [Feb 2025] ![**github stars**](https://img.shields.io/github/stars/tsinghua-fib-lab/agentsociety?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund): Multi-agent financial analysis and portfolio experimentation stack. ![**github stars**](https://img.shields.io/github/stars/virattt/ai-hedge-fund?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [An LLM Agent for Automatic Geospatial Data Analysis📑](https://arxiv.org/abs/2410.18792) [24 Oct 2024]
 1. [ChemAgent: Self-updating Library in Large Language Models Improves Chemical Reasoning📑](https://arxiv.org/abs/2501.06590): ChemAgent leverages an innovative self-improving memory system to significantly enhance performance in complex scientific tasks, with a particular focus on Chemistry. [11 Jan 2025]
 1. [DeepRare📑](https://arxiv.org/abs/2506.20430): An Agentic System for Rare Disease Diagnosis with Traceable Reasoning [25 Jun 2025]
 1. [dexter](https://github.com/virattt/dexter): An autonomous agent for deep financial research [Oct 2025] ![**github stars**](https://img.shields.io/github/stars/virattt/dexter?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
@@ -842,11 +831,18 @@ Supercharge Claude Code with 11 AI agents, 36 commands & 15 skills. ![**github s
 1. [FinRobot: AI Agent for Equity Research and Valuation📑](https://arxiv.org/abs/2411.08804) [13 Nov 2024]
 1. [garak](https://github.com/NVIDIA/garak): The LLM vulnerability scanner. ![**github stars**](https://img.shields.io/github/stars/NVIDIA/garak?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [landing.ai: Vision Agent](https://github.com/landing-ai/vision-agent): A agent frameworks to generate code to solve your vision task. [Feb 2025] ![**github stars**](https://img.shields.io/github/stars/landing-ai/vision-agent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-1. [Organ-Agents: Virtual Human Physiology Simulator via LLMs](https://arxiv.org/abs/2508.14357): Multi-agent system simulating nine human organs using fine-tuned Qwen3-8B, forecasting patient physiology up to 12 hours ahead, validated by 15 ICU specialists. [20 Aug 2025]
 1. [MLE-agent](https://github.com/MLSysOps/MLE-agent): LLM agent for machine learning engineers and researchers [Apr 2024] ![**github stars**](https://img.shields.io/github/stars/MLSysOps/MLE-agent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Mobile-Agent](https://github.com/X-PLUG/MobileAgent): The Powerful Mobile Device Operation Assistant Family. [Jan 2024] ![**github stars**](https://img.shields.io/github/stars/X-PLUG/MobileAgent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Organ-Agents: Virtual Human Physiology Simulator via LLMs](https://arxiv.org/abs/2508.14357): Multi-agent system simulating nine human organs using fine-tuned Qwen3-8B, forecasting patient physiology up to 12 hours ahead, validated by 15 ICU specialists. [20 Aug 2025]
+1. [pentagi](https://github.com/vxcontrol/pentagi): Autonomous AI system for penetration testing with 20+ security tools and sandboxed execution. [Jan 2025] ![**github stars**](https://img.shields.io/github/stars/vxcontrol/pentagi?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [QuantAgent](https://github.com/Y-Research-SBU/QuantAgent): Quantitative trading agent. Multi-Agent LLMs for High-Frequency Trading. [Jul 2025] ![**github stars**](https://img.shields.io/github/stars/Y-Research-SBU/QuantAgent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Realtime API Agents Demo](https://github.com/openai/openai-realtime-agents): a simple demonstration of more advanced, agentic patterns built on top of the Realtime API. OpenAI. [Jan 2025] ![**github stars**](https://img.shields.io/github/stars/openai/openai-realtime-agents?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [SciSciGPT](https://github.com/Northwestern-CSSI/SciSciGPT): Advancing Human-AI Collaboration in the Science of Science. [Sep 2024] ![**github stars**](https://img.shields.io/github/stars/Northwestern-CSSI/SciSciGPT?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [skyagi](https://github.com/litanlitudan/skyagi): Simulating believable human behaviors. Role playing [Apr 2023] ![**github stars**](https://img.shields.io/github/stars/litanlitudan/skyagi?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [Strix](https://github.com/usestrix/strix): Open-source AI Hackers to secure your Apps. [Aug 2025] ![**github stars**](https://img.shields.io/github/stars/usestrix/strix?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [TEN Agent](https://github.com/TEN-framework/TEN-Agent): The world's first real-time multimodal agent integrated with the OpenAI Realtime API. [Jun 2024] ![**github stars**](https://img.shields.io/github/stars/TEN-framework/TEN-Agent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [TradingAgents](https://github.com/TauricResearch/TradingAgents): Multi-agent system for trading research and simulation. ![**github stars**](https://img.shields.io/github/stars/TauricResearch/TradingAgents?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [UpSonic](https://github.com/Upsonic/UpSonic): (previously GPT Computer Assistant(GCA)) an AI agent framework designed to make computer use. [May 2024]
 1. [UXAgent📑](https://arxiv.org/abs/2502.12561): An LLM Agent-Based Usability Testing Framework for Web Design [18 Feb 2025]
 
 #### Deep Research
