@@ -426,6 +426,7 @@
 1. [Meetily](https://github.com/Zackriya-Solutions/meeting-minutes): Open source Ai Assistant for taking meeting notes [Dec 2024] ![**github stars**](https://img.shields.io/github/stars/Zackriya-Solutions/meeting-minutes?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Postiz](https://github.com/gitroomhq/postiz-app): AI social media scheduling tool. An alternative to: Buffer.com, Hypefury, Twitter Hunter. [Jul 2023] ![**github stars**](https://img.shields.io/github/stars/gitroomhq/postiz-app?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 1. [Riona-AI-Agent](https://github.com/David-patrick-chuks/Riona-AI-Agent): automation tool designed for Instagram to automate social media interactions such as posting, liking, and commenting. [Jan 2025] ![**github stars**](https://img.shields.io/github/stars/David-patrick-chuks/Riona-AI-Agent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+1. [StoryRoute](https://github.com/samirk08/storyroute): OpenAI-powered web app that generates immersive, personalized travel narratives, cultural insights, and route recommendations for any destination. [2024] ![**github stars**](https://img.shields.io/github/stars/samirk08/storyroute?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 
 ###### Data, Finance & Analytics
 
