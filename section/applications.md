@@ -659,6 +659,8 @@
 1. [Postman launches full support for Model Context Protocol (MCP)✍️](https://blog.postman.com/postman-launches-full-support-for-model-context-protocol-mcp-build-better-ai-agents-faster/) [1 May 2025]
 1. [Programmatic Tool Calling (PTC) Demo](https://github.com/Chen-zexi/open-ptc-agent): An open source implementation of code execution with MCP (Programatic Tool Calling) [Nov 2025] ![**github stars**](https://img.shields.io/github/stars/Chen-zexi/open-ptc-agent?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 
+1. [prompt-to-asset](https://github.com/MohamedAbdallah-14/prompt-to-asset): MCP server that routes image-generation prompts to 30+ models (DALL-E, Stable Diffusion, Flux, Ideogram, and more) through a single interface. [Apr 2025] ![**github stars**](https://img.shields.io/github/stars/MohamedAbdallah-14/prompt-to-asset?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
+
 #### **A2A**
 
 1. [A2A](https://github.com/google/A2A): Google. Agent2Agent (A2A) protocol. Agent Card (metadata: self-description). Task (a unit of work). Artifact (output). Streaming (Long-running tasks). Leverages HTTP, SSE, and JSON-RPC. Multi-modality incl. interacting with UI components [Mar 2025] ![**github stars**](https://img.shields.io/github/stars/google/A2A?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
