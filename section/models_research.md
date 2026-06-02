@@ -249,8 +249,8 @@ length of 128K tokens, SigLIP encoder, Reasoning [✍️](https://storage.google
   - [Phi-4-mini-flash-reasoning✍️](https://azure.microsoft.com/en-us/blog/reasoning-reimagined-introducing-phi-4-mini-flash-reasoning/): 3.8B, 64K context, Single GPU, Decoder-Hybrid-Decoder architecture  [9 Jul 2025]
 - MiniMaxAI
   - Founded in Dec 2021. Shanghai, China.
+  - [MiniMax-M2](https://github.com/MiniMax-AI/MiniMax-M2): Coding and Agent tasks, 230B (10B Active), MoE, a new high ahead of DeepSeek-V3.2 and Kimi K2. ![**github stars**](https://img.shields.io/github/stars/MiniMax-AI/MiniMax-M2?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
   - [MiniMax-M3](https://github.com/MiniMax-AI/MiniMax-M3): New flagship model with 512K context window, 128K max output, image input, available via OpenAI- and Anthropic-compatible APIs. ![**github stars**](https://img.shields.io/github/stars/MiniMax-AI/MiniMax-M3?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
-  - [MiniMax-M2.7](https://github.com/MiniMax-AI/MiniMax-M2): Previous generation, retained as an alternative for legacy compatibility. ![**github stars**](https://img.shields.io/github/stars/MiniMax-AI/MiniMax-M2?style=flat&label=%20&color=f0f1f2&cacheSeconds=360000)
 - Mistral
   - Founded in April 2023. French tech.
   - Model overview [✍️](https://docs.mistral.ai/getting-started/models/)
